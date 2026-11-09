@@ -1,25 +1,49 @@
 \relax 
 \ProvideDocumentCommand \xpg@aux {mm}{}
 \@writefile{toc}{\xpg@aux {}{greek}}
-\@writefile{toc}{\contentsline {section}{\numberline {1}Βελτιστοποίηση της Εφαρμογής tables.c}{3}{}\protected@file@percent }
-\newlabel{lst:tables}{{1}{3}{}{lstlisting.1}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {1}{\ignorespaces Source Code (tables.c)}}{3}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Σύγκριση Αρχιτεκτονικών}{3}{}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Loop Unrolling}{4}{}\protected@file@percent }
-\newlabel{lst:loop-unrolling}{{2}{4}{}{lstlisting.2}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {2}{\ignorespaces Loop Unrolling with Unrolling Factor k}}{4}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \texorpdfstring {\xpg@aux {}{greek}}{}\ignorespaces Επίδραση του Unrolling Factor στον Χρόνο Εκτέλεσης}}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {1}Βελτιστοποίηση της Εφαρμογής PHODS}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Χαρακτηριστικά του Board}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Μνήμες.}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Κρυφές Μνήμες.}{3}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces \texorpdfstring {\xpg@aux {}{greek}}{}\ignorespaces Flash Cache του S7G2}}{3}{}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig:LU}{{1}{4}{}{figure.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Μέγεθος L1 Data Cache}{5}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \texorpdfstring {\xpg@aux {}{greek}}{}\ignorespaces Επίδραση του Μεγέθους της L1 Data Cache στον Χρόνο Εκτέλεσης}}{5}{}\protected@file@percent }
-\newlabel{fig:L1}{{2}{5}{}{figure.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.4}Βελτιστοποίηση με Εξαντλητική Αναζήτηση}{5}{}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \texorpdfstring {\xpg@aux {}{greek}}{}\ignorespaces Exhaustive Search Pareto Frontier}}{6}{}\protected@file@percent }
-\newlabel{fig:exhaustive-pf}{{3}{6}{}{figure.3}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces \texorpdfstring {\xpg@aux {}{greek}}{}\ignorespaces Exhaustive Search Pareto Optimal Points}}{6}{}\protected@file@percent }
-\newlabel{tab:exhaustive-pf}{{1}{6}{}{table.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.5}Βελτιστοποίηση με τη χρήση Γενετικού Αλγορίθμου}{7}{}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces \texorpdfstring {\xpg@aux {}{greek}}{}\ignorespaces Genetic Algorithm Pareto Optimal Points}}{7}{}\protected@file@percent }
-\newlabel{tab:gen-pf}{{2}{7}{}{table.2}{}}
-\gdef \@abspage@last{7}
+\newlabel{tab:fcache}{{1}{3}{}{table.1}{}}
+\@writefile{toc}{\contentsline {paragraph}{Συχνότητα Ρολογιού.}{3}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \texorpdfstring {\xpg@aux {}{greek}}{}\ignorespaces Συχνότητα ICLK στο Clocks Configuration του e2 studio}}{3}{}\protected@file@percent }
+\newlabel{fig:iclk}{{1}{3}{}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Μέτρηση Χρόνου Εκτέλεσης}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \texorpdfstring {\xpg@aux {}{greek}}{}\ignorespaces Αποτελέσματα μέτρησης του αρχικού κώδικα (Expressions του e2 studio)}}{4}{}\protected@file@percent }
+\newlabel{fig:baseline}{{2}{4}{}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Μετασχηματισμοί Κώδικα}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Loop Unrolling.}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \texorpdfstring {\xpg@aux {}{greek}}{}\ignorespaces Αποτελέσματα μέτρησης μετά το Loop Unrolling}}{5}{}\protected@file@percent }
+\newlabel{fig:unroll}{{3}{5}{}{figure.3}{}}
+\@writefile{toc}{\contentsline {paragraph}{Loop Reversal.}{5}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \texorpdfstring {\xpg@aux {}{greek}}{}\ignorespaces Αποτελέσματα μέτρησης μετά το Loop Unrolling και το Loop Reversal}}{5}{}\protected@file@percent }
+\newlabel{fig:reversal}{{4}{5}{}{figure.4}{}}
+\@writefile{toc}{\contentsline {paragraph}{Data Reuse Transformation (DRT).}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces \texorpdfstring {\xpg@aux {}{greek}}{}\ignorespaces Αποτελέσματα μέτρησης μετά το Loop Unrolling, το Loop Reversal και το DRT}}{6}{}\protected@file@percent }
+\newlabel{fig:drt}{{5}{6}{}{figure.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.4}Εξερεύνηση Μεγέθους Μπλοκ $B \times B$}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.5}Εξερεύνηση Μεγέθους Μπλοκ $B_x \times B_y$}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Βελτιστοποίηση της Εφαρμογής tables.c}{6}{}\protected@file@percent }
+\newlabel{lst:tables}{{1}{6}{}{lstlisting.1}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {1}{\ignorespaces Source Code (tables.c)}}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Σύγκριση Αρχιτεκτονικών}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Loop Unrolling}{7}{}\protected@file@percent }
+\newlabel{lst:loop-unrolling}{{2}{8}{}{lstlisting.2}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2}{\ignorespaces Loop Unrolling with Unrolling Factor k}}{8}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces \texorpdfstring {\xpg@aux {}{greek}}{}\ignorespaces Επίδραση του Unrolling Factor στον Χρόνο Εκτέλεσης}}{8}{}\protected@file@percent }
+\newlabel{fig:LU}{{6}{8}{}{figure.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Μέγεθος L1 Data Cache}{8}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces \texorpdfstring {\xpg@aux {}{greek}}{}\ignorespaces Επίδραση του Μεγέθους της L1 Data Cache στον Χρόνο Εκτέλεσης}}{9}{}\protected@file@percent }
+\newlabel{fig:L1}{{7}{9}{}{figure.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Βελτιστοποίηση με Εξαντλητική Αναζήτηση}{9}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces \texorpdfstring {\xpg@aux {}{greek}}{}\ignorespaces Exhaustive Search Pareto Frontier}}{10}{}\protected@file@percent }
+\newlabel{fig:exhaustive-pf}{{8}{10}{}{figure.8}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces \texorpdfstring {\xpg@aux {}{greek}}{}\ignorespaces Exhaustive Search Pareto Optimal Points}}{10}{}\protected@file@percent }
+\newlabel{tab:exhaustive-pf}{{2}{10}{}{table.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Βελτιστοποίηση με τη χρήση Γενετικού Αλγορίθμου}{11}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces \texorpdfstring {\xpg@aux {}{greek}}{}\ignorespaces Genetic Algorithm Pareto Optimal Points}}{11}{}\protected@file@percent }
+\newlabel{tab:gen-pf}{{3}{11}{}{table.3}{}}
+\gdef \@abspage@last{11}
