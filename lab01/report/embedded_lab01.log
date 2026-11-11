@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (MiKTeX 25.12) (format=lualatex 2026.10.16)  10 NOV 2026 01:35
+This is LuaHBTeX, Version 1.24.0 (MiKTeX 25.12) (format=lualatex 2026.10.16)  11 NOV 2026 02:06
  system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embed
@@ -884,20 +884,156 @@ Package bm Info: No bold for \U/msa/m/n, using \pmb.
 Package bm Info: No bold for \U/msb/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 )
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/pgfplots/pgfplots.
+sty
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
+s.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
+s.code.tex
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
+score.code.tex
+Package pgfplots info on input line 124: Initializing with LUA version Lua 5.3
+\pgfplots@luabackend@table=\catcodetable14
+\t@pgfplots@toka=\toks40
+\t@pgfplots@tokb=\toks41
+\t@pgfplots@tokc=\toks42
+\pgfplots@tmpa=\dimen327
+\c@pgfplots@coordindex=\count361
+\c@pgfplots@scanlineindex=\count362
+
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/sys/pgf
+plotssysgeneric.code.tex))
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/pg
+fplotslibrary.code.tex)
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/oldpgfc
+ompatib/pgfplotsoldpgfsupp_loader.code.tex
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks43
+\t@pgf@tokb=\toks44
+\t@pgf@tokc=\toks45
+
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/oldpgfc
+ompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/lu
+amath/pgflibraryluamath.code.tex)
+Package pgfplots info on input line 290: luamath library shipped with pgf 3.1.1
+1a is up-to-date
+)
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pg
+fplotsutil.code.tex
+Package pgfplots info on input line 82: Found new luatex: initializing lua comm
+ands instead of write18 (shell-escape)
+
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststr
+ucture/pgfplotsliststructure.code.tex)
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststr
+ucture/pgfplotsliststructureext.code.tex)
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststr
+ucture/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count363
+)
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststr
+ucture/pgfplotsmatrix.code.tex)
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/numtabl
+e/pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count364
+\t@pgfplotstable@a=\toks46
+)
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststr
+ucture/pgfplotsdeque.code.tex)
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pg
+fplotsbinary.code.tex
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pg
+fplotsbinary.data.code.tex))
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pg
+fplotsutil.verb.code.tex)
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/pg
+flibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count365
+
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/sys/pgf
+librarypgfplots.surfshading.pgfsys-luatex.def)))
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pg
+fplotscolormap.code.tex
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pg
+fplotscolor.code.tex))
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
+sstackedplots.code.tex)
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
+splothandlers.code.tex
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
+smeshplothandler.code.tex
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
+smeshplotimage.code.tex)))
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
+s.scaling.code.tex)
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
+scoordprocessing.code.tex)
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
+s.errorbars.code.tex)
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
+s.markers.code.tex)
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
+sticks.code.tex)
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
+s.paths.code.tex)
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlaye
+r/tikz/libraries/tikzlibrarydecorations.code.tex
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfm
+oduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen328
+\pgfdecoratedremainingdistance=\dimen329
+\pgfdecoratedinputsegmentcompleteddistance=\dimen330
+\pgfdecoratedinputsegmentremainingdistance=\dimen331
+\pgf@decorate@distancetomove=\dimen332
+\pgf@decorate@repeatstate=\count366
+\pgfdecorationsegmentamplitude=\dimen333
+\pgfdecorationsegmentlength=\dimen334
+)
+\tikz@lib@dec@box=\box79
+)
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlaye
+r/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/de
+corations/pgflibrarydecorations.pathmorphing.code.tex))
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlaye
+r/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/de
+corations/pgflibrarydecorations.pathreplacing.code.tex))
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/ti
+kzlibrarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count367
+\pgfplots@xmin@reg=\dimen335
+\pgfplots@xmax@reg=\dimen336
+\pgfplots@ymin@reg=\dimen337
+\pgfplots@ymax@reg=\dimen338
+\pgfplots@zmin@reg=\dimen339
+\pgfplots@zmax@reg=\dimen340
+)
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlaye
+r/tikz/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pg
+flibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
 (C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.
 sty
-\lst@mode=\count361
-\lst@gtempboxa=\box79
-\lst@token=\toks40
-\lst@length=\count362
-\lst@currlwidth=\dimen327
-\lst@column=\count363
-\lst@pos=\count364
-\lst@lostspace=\dimen328
-\lst@width=\dimen329
-\lst@newlines=\count365
-\lst@lineno=\count366
-\lst@maxwidth=\dimen330
+\lst@mode=\count368
+\lst@gtempboxa=\box80
+\lst@token=\toks47
+\lst@length=\count369
+\lst@currlwidth=\dimen341
+\lst@column=\count370
+\lst@pos=\count371
+\lst@lostspace=\dimen342
+\lst@width=\dimen343
+\lst@newlines=\count372
+\lst@lineno=\count373
+\lst@maxwidth=\dimen344
 
 (C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstpatch.
 sty
@@ -906,9 +1042,9 @@ File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
 (C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc.s
 ty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-\c@lstnumber=\count367
-\lst@skipnumbers=\count368
-\lst@framebox=\box80
+\c@lstnumber=\count374
+\lst@skipnumbers=\count375
+\lst@framebox=\box81
 )
 (C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.
 cfg
@@ -926,13 +1062,13 @@ Package: listings 2025/11/14 1.11b (Carsten Heinz)
 (C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/csvsimple/csvsimpl
 e-l3.sty
 Package: csvsimple-l3 2026/07/01 v3.0.0 LaTeX3 CSV file processing
-\g__csvsim_col_int=\count369
-\g__csvsim_colmax_int=\count370
-\g_csvsim_columncount_int=\count371
-\g_csvsim_inputline_int=\count372
-\g_csvsim_row_int=\count373
-\l__csvsim_tmpa_int=\count374
-\l__csvsim_tmpb_int=\count375
+\g__csvsim_col_int=\count376
+\g__csvsim_colmax_int=\count377
+\g_csvsim_columncount_int=\count378
+\g_csvsim_inputline_int=\count379
+\g_csvsim_row_int=\count380
+\l__csvsim_tmpa_int=\count381
+\l__csvsim_tmpb_int=\count382
 )
 
 Package fontspec Info: 
@@ -972,22 +1108,22 @@ mcp;"
  (./embedded_lab01.aux)
 \openout1 = embedded_lab01.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1030,78 +1166,78 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 52.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 52.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 52.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 52.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 52.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 52.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 52.
-LaTeX Font Info:    Redeclaring math accent \check on input line 52.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 52.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 52.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 52.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 52.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 52.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 52.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 52.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 52.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 52.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 52.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 52.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 52.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 52.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 52.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 52.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 52.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 54.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 54.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 54.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 54.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 54.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 54.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 54.
+LaTeX Font Info:    Redeclaring math accent \check on input line 54.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 54.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 54.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 54.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 54.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 52.
+(Font)              `operators' in the math version `normal' on input line 54.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/PalatinoLinotype(0)/m/n on input lin
-e 52.
+e 54.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 52.
+(Font)              `operators' in the math version `bold' on input line 54.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/PalatinoLinotype(0)/m/n on input li
-ne 52.
+ne 54.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/PalatinoLinotype(0)/m/n --> TU/PalatinoLinotype(0)/m
-/n on input line 52.
+/n on input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/PalatinoLinotype(0)/m/it on input l
-ine 52.
+ine 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/PalatinoLinotype(0)/b/n on input li
-ne 52.
+ne 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 52.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 52.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 54.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/PalatinoLinotype(0)/m/n --> TU/PalatinoLinotype(0)/b
-/n on input line 52.
+/n on input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/PalatinoLinotype(0)/b/it on input 
-line 52.
+line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 52.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 52.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 54.
 
 (C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-p
 df.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count376
-\scratchdimen=\dimen331
-\scratchbox=\box81
-\nofMPsegments=\count377
-\nofMParguments=\count378
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count379
-\MPscratchDim=\dimen332
-\MPnumerator=\count380
-\makeMPintoPDFobject=\count381
-\everyMPtoPDFconversion=\toks42
+\scratchcounter=\count383
+\scratchdimen=\dimen345
+\scratchbox=\box82
+\nofMPsegments=\count384
+\nofMParguments=\count385
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count386
+\MPscratchDim=\dimen346
+\MPnumerator=\count387
+\makeMPintoPDFobject=\count388
+\everyMPtoPDFconversion=\toks49
 )
 (C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epsto
 pdf-base.sty
@@ -1117,7 +1253,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package translations Info: no dictionary file `translations-basic-dictionary-gr
-eek.trsl' found. on input line 52.
+eek.trsl' found. on input line 54.
 
 (C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/translations/dicts
 /translations-basic-dictionary-english.trsl
@@ -1125,12 +1261,16 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 52.
-\c@lstlisting=\count382
- [1
+or `english'. on input line 54.
 
-{C:/Users/ΝΙΚΟΣ/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (./embe
-dded_lab01.toc
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
+
+\c@lstlisting=\count389
+[1
+
+{C:/Users/ΝΙΚΟΣ/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+(./embedded_lab01.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
 (C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
@@ -1147,7 +1287,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [2]
 
 c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:112: Package polyglossia Error: The current main monospace font,
+_lab01.tex:115: Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1156,8 +1296,9 @@ _lab01.tex:112: Package polyglossia Error: The current main monospace font,
 Type <return> to continue.
  ...                                              
                                                   
-l.112 ...ιευθύνσεις \texttt{0000 0000h}
-                                                  --\texttt{003F FFFFh}.
+l.115 ...ιευθύνσεων \texttt{0000 0000h}
+                                                  --\texttt{003F FFFFh}. Απ...
+
 
 LaTeX does not know anything more about this error, sorry.
 
@@ -1167,7 +1308,7 @@ If that doesn't work, type X <return> to quit.
 
 
 c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:112: Package polyglossia Error: The current main monospace font,
+_lab01.tex:115: Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1176,8 +1317,8 @@ _lab01.tex:112: Package polyglossia Error: The current main monospace font,
 Type <return> to continue.
  ...                                              
                                                   
-l.112 ... \texttt{0000 0000h}--\texttt{003F FFFFh}
-                                                  .
+l.115 ... \texttt{0000 0000h}--\texttt{003F FFFFh}
+                                                  . Αποτελείται
 
 LaTeX does not know anything more about this error, sorry.
 
@@ -1186,8 +1327,15 @@ If that doesn't work, type X <return> to quit.
 
 
 
+Overfull \hbox (2.29373pt too wide) in paragraph at lines 114--117
+\TU/PalatinoLinotype(1)/m/n/12 ανα-γνώ-σεις από τη μνήμη Fla
+sh και κα-λύ-πτει την πε-ριοχή διευ-θύν-σεων \T
+U/lmtt/m/n/12 0000 0000h\TU/PalatinoLinotype(1)/m/n/12 --\TU/lmtt/m/n/12 003F
+ []
+
+
 c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:134: Package polyglossia Error: The current main monospace font,
+_lab01.tex:136: Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1196,7 +1344,7 @@ _lab01.tex:134: Package polyglossia Error: The current main monospace font,
 Type <return> to continue.
  ...                                              
                                                   
-l.134 ...ολογιού (\texttt{SystemCoreClock}
+l.136 ...ολογιού (\texttt{SystemCoreClock}
                                                    / ICLK) είναι 240 MH...
 
 LaTeX does not know anything more about this error, sorry.
@@ -1207,7 +1355,7 @@ If that doesn't work, type X <return> to quit.
 
 
 c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:134: Package polyglossia Error: The current main monospace font,
+_lab01.tex:136: Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1216,7 +1364,7 @@ _lab01.tex:134: Package polyglossia Error: The current main monospace font,
 Type <return> to continue.
  ...                                              
                                                   
-l.134 ...watch expression \texttt{SystemCoreClock}
+l.136 ...}, όπου το \texttt{SystemCoreClock}
                                                    δείχνει 240000000.
 
 LaTeX does not know anything more about this error, sorry.
@@ -1225,14 +1373,21 @@ Try typing <return> to proceed.
 If that doesn't work, type X <return> to quit.
 
 
+
+Overfull \hbox (33.70432pt too wide) in paragraph at lines 136--137
+\TU/PalatinoLinotype(1)/m/n/12 (καρ-τέλα Clocks Configuration). Η ίδ
+ια τιμή φαί-νε-ται και στο Σχήμα 2[], όπου το \T
+U/lmtt/m/n/12 SystemCoreClock
+ []
+
 <iclk_240mhz.png.png, id=16, 134.75343pt x 37.64063pt>
 File: iclk_240mhz.png.png Graphic file (type png)
 <use iclk_240mhz.png.png>
-Package luatex.def Info: iclk_240mhz.png.png  used on input line 138.
+Package luatex.def Info: iclk_240mhz.png.png  used on input line 140.
 (luatex.def)             Requested size: 145.11053pt x 40.53407pt.
 
 c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:144: Package polyglossia Error: The current main monospace font,
+_lab01.tex:146: Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1241,7 +1396,7 @@ _lab01.tex:144: Package polyglossia Error: The current main monospace font,
 Type <return> to continue.
  ...                                              
                                                   
-l.144 ...σης \texttt{phods\_motion\_estimation}
+l.146 ...σης \texttt{phods\_motion\_estimation}
                                                    του αρχικού (μ...
 
 LaTeX does not know anything more about this error, sorry.
@@ -1252,7 +1407,7 @@ If that doesn't work, type X <return> to quit.
 
 
 c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:144: Package polyglossia Error: The current main monospace font,
+_lab01.tex:146: Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1261,7 +1416,7 @@ _lab01.tex:144: Package polyglossia Error: The current main monospace font,
 Type <return> to continue.
  ...                                              
                                                   
-l.144 ...καταχωρητή \texttt{DWT->CYCCNT}
+l.146 ...καταχωρητή \texttt{DWT->CYCCNT}
                                                    πριν και μετά ...
 
 LaTeX does not know anything more about this error, sorry.
@@ -1274,12 +1429,12 @@ If that doesn't work, type X <return> to quit.
 <debug_baseline.png.png, id=22, 384.2355pt x 154.176pt>
 File: debug_baseline.png.png Graphic file (type png)
 <use debug_baseline.png.png>
-Package luatex.def Info: debug_baseline.png.png  used on input line 148.
+Package luatex.def Info: debug_baseline.png.png  used on input line 150.
 (luatex.def)             Requested size: 386.95897pt x 155.27423pt.
 
 
 c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:158: Package polyglossia Error: The current main monospace font,
+_lab01.tex:161: Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1288,7 +1443,7 @@ _lab01.tex:158: Package polyglossia Error: The current main monospace font,
 Type <return> to continue.
  ...                                              
                                                   
-l.158 ...κός βρόχος \texttt{while(S > 0)}
+l.161 ...κός βρόχος \texttt{while(S > 0)}
                                                    εκτελείται ακ...
 
 LaTeX does not know anything more about this error, sorry.
@@ -1300,18 +1455,23 @@ If that doesn't work, type X <return> to quit.
 <unroll.png, id=23, 399.29175pt x 184.89075pt>
 File: unroll.png Graphic file (type png)
 <use unroll.png>
-Package luatex.def Info: unroll.png  used on input line 162.
+Package luatex.def Info: unroll.png  used on input line 165.
 (luatex.def)             Requested size: 338.58632pt x 156.78264pt.
 [4<./debug_baseline.png.png>]
+Overfull \hbox (2.4125pt too wide) in paragraph at lines 173--174
+\TU/PalatinoLinotype(1)/b/n/12 Loop Reversal.[] \TU/PalatinoLinotype(1)/m/n/12 
+Στους εσω-τε-ρι-κούς βρό-χους οι δεί-κτες k κ
+αι l με-τρούν πλέον αντί-στροφα
+ []
+
 <unroll_reversal.png, id=28, 434.8245pt x 190.91325pt>
 File: unroll_reversal.png Graphic file (type png)
 <use unroll_reversal.png>
-Package luatex.def Info: unroll_reversal.png  used on input line 174.
+Package luatex.def Info: unroll_reversal.png  used on input line 177.
 (luatex.def)             Requested size: 338.58632pt x 148.66121pt.
 
-
 c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:182: Package polyglossia Error: The current main monospace font,
+_lab01.tex:185: Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1320,7 +1480,7 @@ _lab01.tex:182: Package polyglossia Error: The current main monospace font,
 Type <return> to continue.
  ...                                              
                                                   
-l.182 Οι πίνακες \texttt{current}
+l.185 Οι πίνακες \texttt{current}
                                            και \texttt{previous} είνα...
 
 LaTeX does not know anything more about this error, sorry.
@@ -1331,7 +1491,7 @@ If that doesn't work, type X <return> to quit.
 
 
 c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:182: Package polyglossia Error: The current main monospace font,
+_lab01.tex:185: Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1340,7 +1500,7 @@ _lab01.tex:182: Package polyglossia Error: The current main monospace font,
 Type <return> to continue.
  ...                                              
                                                   
-l.182 ...\texttt{current} και \texttt{previous}
+l.185 ...\texttt{current} και \texttt{previous}
                                                    είναι \texttt{const}...
 
 LaTeX does not know anything more about this error, sorry.
@@ -1351,7 +1511,7 @@ If that doesn't work, type X <return> to quit.
 
 
 c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:182: Package polyglossia Error: The current main monospace font,
+_lab01.tex:185: Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1360,7 +1520,7 @@ _lab01.tex:182: Package polyglossia Error: The current main monospace font,
 Type <return> to continue.
  ...                                              
                                                   
-l.182 ...exttt{previous} είναι \texttt{const}
+l.185 ...exttt{previous} είναι \texttt{const}
                                                   , άρα βρίσκοντα...
 
 
@@ -1372,7 +1532,7 @@ If that doesn't work, type X <return> to quit.
 
 
 c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:182: Package polyglossia Error: The current main monospace font,
+_lab01.tex:185: Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1381,7 +1541,7 @@ _lab01.tex:182: Package polyglossia Error: The current main monospace font,
 Type <return> to continue.
  ...                                              
                                                   
-l.182 ...ς RAM το block του \texttt{current}
+l.185 ...ς RAM το block του \texttt{current}
                                                    (B$\times$B) και το ...
 
 LaTeX does not know anything more about this error, sorry.
@@ -1392,7 +1552,7 @@ If that doesn't work, type X <return> to quit.
 
 
 c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:182: Package polyglossia Error: The current main monospace font,
+_lab01.tex:185: Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1401,7 +1561,7 @@ _lab01.tex:182: Package polyglossia Error: The current main monospace font,
 Type <return> to continue.
  ...                                              
                                                   
-l.182 ...αζήτησης του \texttt{previous}
+l.185 ...αζήτησης του \texttt{previous}
                                                    ((B+2p)$\times$(B+2p)). Ο...
 
 
@@ -1415,9 +1575,217 @@ If that doesn't work, type X <return> to quit.
 <unroll_reversal_drt.png, id=34, 349.90726pt x 178.86826pt>
 File: unroll_reversal_drt.png Graphic file (type png)
 <use unroll_reversal_drt.png>
-Package luatex.def Info: unroll_reversal_drt.png  used on input line 186.
+Package luatex.def Info: unroll_reversal_drt.png  used on input line 189.
 (luatex.def)             Requested size: 338.58632pt x 173.07895pt.
 
+
+c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
+_lab01.tex:200: Package polyglossia Error: The current main monospace font,
+(polyglossia)                lmmono12-regular, does not contain the "Greek"
+(polyglossia)                script!
+(polyglossia)                Please define \greekfonttt with \newfontfamily
+(polyglossia)                command
+
+Type <return> to continue.
+ ...                                              
+                                                  
+l.200 ...tion\_\allowbreak vectors\_\allowbreak x}
+                                                   και \texttt{motion\_\a...
+
+LaTeX does not know anything more about this error, sorry.
+
+Try typing <return> to proceed.
+If that doesn't work, type X <return> to quit.
+
+
+
+c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
+_lab01.tex:200: Package polyglossia Error: The current main monospace font,
+(polyglossia)                lmmono12-regular, does not contain the "Greek"
+(polyglossia)                script!
+(polyglossia)                Please define \greekfonttt with \newfontfamily
+(polyglossia)                command
+
+Type <return> to continue.
+ ...                                              
+                                                  
+l.200 ...tion\_\allowbreak vectors\_\allowbreak y}
+                                                   ως καθολικές (...
+
+LaTeX does not know anything more about this error, sorry.
+
+Try typing <return> to proceed.
+If that doesn't work, type X <return> to quit.
+
+
+
+c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
+_lab01.tex:200: Package polyglossia Error: The current main monospace font,
+(polyglossia)                lmmono12-regular, does not contain the "Greek"
+(polyglossia)                script!
+(polyglossia)                Please define \greekfonttt with \newfontfamily
+(polyglossia)                command
+
+Type <return> to continue.
+ ...                                              
+                                                  
+l.200 ...τοπικές της \texttt{hal\_entry}
+                                                  . Οι πίνακες αυ...
+
+LaTeX does not know anything more about this error, sorry.
+
+Try typing <return> to proceed.
+If that doesn't work, type X <return> to quit.
+
+
+<block_B1.png, id=35, 370.38374pt x 172.84575pt>
+File: block_B1.png Graphic file (type png)
+<use block_B1.png>
+Package luatex.def Info: block_B1.png  used on input line 208.
+(luatex.def)             Requested size: 232.17242pt x 108.34744pt.
+<block_B2.png, id=36, 343.2825pt x 193.32225pt>
+File: block_B2.png Graphic file (type png)
+<use block_B2.png>
+Package luatex.def Info: block_B2.png  used on input line 214.
+(luatex.def)             Requested size: 232.17242pt x 130.74942pt.
+<block_B4.png, id=37, 349.90726pt x 169.8345pt>
+File: block_B4.png Graphic file (type png)
+<use block_B4.png>
+Package luatex.def Info: block_B4.png  used on input line 222.
+(luatex.def)             Requested size: 232.17242pt x 112.68713pt.
+<block_B8.png, id=38, 365.56575pt x 170.43675pt>
+File: block_B8.png Graphic file (type png)
+<use block_B8.png>
+Package luatex.def Info: block_B8.png  used on input line 228.
+(luatex.def)             Requested size: 232.17242pt x 108.24432pt.
+<block_B16.png, id=39, 361.35pt x 172.84575pt>
+File: block_B16.png Graphic file (type png)
+<use block_B16.png>
+Package luatex.def Info: block_B16.png  used on input line 236.
+(luatex.def)             Requested size: 232.17242pt x 111.05606pt.
+[6<./unroll_reversal_drt.png>]
+
+c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
+_lab01.tex:262: Package polyglossia Error: The current main monospace font,
+(polyglossia)                lmmono12-regular, does not contain the "Greek"
+(polyglossia)                script!
+(polyglossia)                Please define \greekfonttt with \newfontfamily
+(polyglossia)                command
+
+Type <return> to continue.
+ ...                                              
+                                                  
+l.262 ...μεταβλητής \texttt{sum\_cycles}
+                                                  , η οποία είναι...
+
+LaTeX does not know anything more about this error, sorry.
+
+Try typing <return> to proceed.
+If that doesn't work, type X <return> to quit.
+
+
+
+c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
+_lab01.tex:262: Package polyglossia Error: The current main monospace font,
+(polyglossia)                lmmono12-regular, does not contain the "Greek"
+(polyglossia)                script!
+(polyglossia)                Please define \greekfonttt with \newfontfamily
+(polyglossia)                command
+
+Type <return> to continue.
+ ...                                              
+                                                  
+l.262 ...ποία είναι \texttt{unsigned int}
+                                                   των 32 bit και μπ...
+
+LaTeX does not know anything more about this error, sorry.
+
+Try typing <return> to proceed.
+If that doesn't work, type X <return> to quit.
+
+
+
+c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
+_lab01.tex:262: Package polyglossia Error: The current main monospace font,
+(polyglossia)                lmmono12-regular, does not contain the "Greek"
+(polyglossia)                script!
+(polyglossia)                Please define \greekfonttt with \newfontfamily
+(polyglossia)                command
+
+Type <return> to continue.
+ ...                                              
+                                                  
+l.262 ...χνουν και τα \texttt{min\_time}
+                                                   και \texttt{max\_time}...
+
+LaTeX does not know anything more about this error, sorry.
+
+Try typing <return> to proceed.
+If that doesn't work, type X <return> to quit.
+
+
+
+c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
+_lab01.tex:262: Package polyglossia Error: The current main monospace font,
+(polyglossia)                lmmono12-regular, does not contain the "Greek"
+(polyglossia)                script!
+(polyglossia)                Please define \greekfonttt with \newfontfamily
+(polyglossia)                command
+
+Type <return> to continue.
+ ...                                              
+                                                  
+l.262 ...xttt{min\_time} και \texttt{max\_time}
+                                                  . Χρησιμοποιού...
+
+LaTeX does not know anything more about this error, sorry.
+
+Try typing <return> to proceed.
+If that doesn't work, type X <return> to quit.
+
+
+[7<./block_B1.png><./block_B2.png><./block_B4.png><./block_B8.png><./block_B16.p
+ng>] [8]
+<rect_24x16.png, id=60, 409.53pt x 193.32225pt>
+File: rect_24x16.png Graphic file (type png)
+<use rect_24x16.png>
+Package luatex.def Info: rect_24x16.png  used on input line 333.
+(luatex.def)             Requested size: 290.22107pt x 137.00902pt.
+ [9]
+<rect_16x8.png, id=65, 405.01312pt x 201.00093pt>
+File: rect_16x8.png Graphic file (type png)
+<use rect_16x8.png>
+Package luatex.def Info: rect_16x8.png  used on input line 348.
+(luatex.def)             Requested size: 232.17242pt x 115.22499pt.
+<rect_8x16.png, id=66, 413.74574pt x 185.493pt>
+File: rect_8x16.png Graphic file (type png)
+<use rect_8x16.png>
+Package luatex.def Info: rect_8x16.png  used on input line 354.
+(luatex.def)             Requested size: 232.17242pt x 104.09047pt.
+<rect_24x11.png, id=67, 408.3255pt x 185.493pt>
+File: rect_24x11.png Graphic file (type png)
+<use rect_24x11.png>
+Package luatex.def Info: rect_24x11.png  used on input line 362.
+(luatex.def)             Requested size: 232.17242pt x 105.4717pt.
+<rect_12x22.png, id=68, 414.348pt x 171.64125pt>
+File: rect_12x22.png Graphic file (type png)
+<use rect_12x22.png>
+Package luatex.def Info: rect_12x22.png  used on input line 368.
+(luatex.def)             Requested size: 232.17242pt x 96.17604pt.
+ [10<./rect_24x16.png><./rect_16x8.png><./rect_8x16.png><./rect_24x11.png><./rec
+t_12x22.png>]
+Overfull \hbox (1.28978pt too wide) in paragraph at lines 418--419
+ [][] 
+ []
+
+
+Overfull \hbox (5.0004pt too wide) in paragraph at lines 423--424
+[]\TU/PalatinoLinotype(1)/m/n/12 Το διά-γραμμα δεί-χνει ότ
+ι σχε-δόν όλη η βελ-τί-ωση οφεί-λε-ται στο DRT. 
+Το Loop Unrolling
+ []
+
+[11]
 (C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstlang1.
 sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
@@ -1428,7 +1796,7 @@ File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 )
 
 c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:199: Package polyglossia Error: The current main monospace font,
+_lab01.tex:428: Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1437,7 +1805,7 @@ _lab01.tex:199: Package polyglossia Error: The current main monospace font,
 Type <return> to continue.
  ...                                              
                                                   
-l.199 ...tables.c)}, label={lst:tables}]{tables.c}
+l.428 ...tables.c)}, label={lst:tables}]{tables.c}
                                                   
 
 LaTeX does not know anything more about this error, sorry.
@@ -1449,17 +1817,17 @@ If that doesn't work, type X <return> to quit.
 (./tables.c
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 1.
- [6<./unroll_reversal_drt.png>])
-Overfull \hbox (15.02295pt too wide) in paragraph at lines 202--203
+)
+Overfull \hbox (15.02295pt too wide) in paragraph at lines 431--432
 \TU/PalatinoLinotype(1)/m/n/12 που πε-ρι-λαμ-βά-νει τον επ
 ε-ξερ-γα-στή και την κύ-ρια μνήμη. Η εκτέ-λεσ
 η γί-νε-ται σε 858,490,254
  []
 
-[7]
+[12]
 
 c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:209: Package polyglossia Error: The current main monospace font,
+_lab01.tex:438: Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1468,7 +1836,7 @@ _lab01.tex:209: Package polyglossia Error: The current main monospace font,
 Type <return> to continue.
  ...                                              
                                                   
-l.209 ...lling Factor k, label=lst:loop-unrolling]
+l.438 ...lling Factor k, label=lst:loop-unrolling]
                                                   
 
 LaTeX does not know anything more about this error, sorry.
@@ -1477,29 +1845,29 @@ Try typing <return> to proceed.
 If that doesn't work, type X <return> to quit.
 
 
-<unrolling_factors_plot.png, id=45, 462.528pt x 346.896pt>
+<unrolling_factors_plot.png, id=86, 462.528pt x 346.896pt>
 File: unrolling_factors_plot.png Graphic file (type png)
 <use unrolling_factors_plot.png>
-Package luatex.def Info: unrolling_factors_plot.png  used on input line 223.
+Package luatex.def Info: unrolling_factors_plot.png  used on input line 452.
 (luatex.def)             Requested size: 386.95897pt x 290.23143pt.
-<l1d_cache_size_plot.png, id=46, 462.528pt x 346.896pt>
+<l1d_cache_size_plot.png, id=87, 462.528pt x 346.896pt>
 File: l1d_cache_size_plot.png Graphic file (type png)
 <use l1d_cache_size_plot.png>
-Package luatex.def Info: l1d_cache_size_plot.png  used on input line 233.
+Package luatex.def Info: l1d_cache_size_plot.png  used on input line 462.
 (luatex.def)             Requested size: 386.95897pt x 290.23143pt.
-[8<./unrolling_factors_plot.png>]
-Overfull \hbox (22.14102pt too wide) in paragraph at lines 241--242
+[13<./unrolling_factors_plot.png>]
+Overfull \hbox (22.14102pt too wide) in paragraph at lines 470--471
 []\TU/PalatinoLinotype(1)/m/n/12 Έχο-ντας με-λε-τή-σει την 
 επί-δραση συ-γκε-κρι-μέ-νων πα-ρα-μέ-τρων τη
 ς εφαρ-μο-γής (Unrolling
  []
 
-<pareto_frontier_plot.png, id=51, 622.7265pt x 394.5942pt>
+<pareto_frontier_plot.png, id=92, 622.7265pt x 394.5942pt>
 File: pareto_frontier_plot.png Graphic file (type png)
 <use pareto_frontier_plot.png>
-Package luatex.def Info: pareto_frontier_plot.png  used on input line 254.
+Package luatex.def Info: pareto_frontier_plot.png  used on input line 483.
 (luatex.def)             Requested size: 386.95897pt x 245.1998pt.
-[9<./l1d_cache_size_plot.png>] [10<./pareto_frontier_plot.png>] [11]
+[14<./l1d_cache_size_plot.png>] [15<./pareto_frontier_plot.png>] [16]
 (./embedded_lab01.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -1508,27 +1876,33 @@ L3 programming layer <2025-12-24>
 )
 
 Here is how much of LuaTeX's memory you used:
- 44041 strings out of 476081
- 244191,2373549 words of node,token memory allocated
- 501 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 54 glue_spec,
- 7 attribute_list, 2 write nodes
-   avail lists: 2:2990,3:119,4:4284,5:3978,6:76,7:9990,8:5,9:12108,10:67,11:906
- 65795 multiletter control sequences out of 65536+600000
- 110 fonts using 18833151 bytes
- 99i,9n,113p,1400b,1112s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 54562 strings out of 476081
+ 305245,2848258 words of node,token memory allocated
+ 505 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 54 glue_spec,
+ 8 attribute_list, 2 write nodes
+   avail lists: 2:3166,3:760,4:4540,5:4208,6:78,7:10550,8:27,9:12787,10:67,11:95
+3
+ 76058 multiletter control sequences out of 65536+600000
+ 122 fonts using 20568591 bytes
+ 99i,11n,113p,1783b,2129s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/users/ΝΙΚΟΣ/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmo
 no10-regular.otf><c:/users/ΝΙΚΟΣ/appdata/local/programs/miktex/fonts/openty
-pe/public/lm/lmmonolt10-bold.otf><c:/users/ΝΙΚΟΣ/appdata/local/programs/mik
-tex/fonts/opentype/public/lm/lmmono12-regular.otf><C:/WINDOWS/Fonts/pala.ttf><C:
-/WINDOWS/Fonts/palab.ttf><C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ΝΙΚΟΣ/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/ΝΙΚΟΣ/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ΝΙ
-ΚΟΣ/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on embedded_lab01.pdf (11 pages, 485503 bytes).
+pe/public/lm/lmmonolt10-bold.otf><C:/WINDOWS/Fonts/palai.ttf><c:/users/ΝΙΚ
+ΟΣ/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmono12-regular.otf
+><C:/WINDOWS/Fonts/pala.ttf><C:/WINDOWS/Fonts/palab.ttf><C:/Users/ΝΙΚΟΣ/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/
+ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.p
+fb><C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb><C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb><C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ΝΙΚΟΣ/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ΝΙΚΟΣ/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ΝΙ
+ΚΟΣ/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on embedded_lab01.pdf (16 pages, 815336 bytes).
 
-PDF statistics: 110 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 167 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 1048576)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
