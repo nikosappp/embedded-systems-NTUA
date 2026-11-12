@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2026.11.7)  12 NOV 2026 21:30
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2026.11.7)  12 NOV 2026 22:00
  restricted system commands enabled.
 **embedded_lab01.tex
 (./embedded_lab01.tex
@@ -1854,11 +1854,11 @@ L3 programming layer <2025-04-14>
 
 Here is how much of LuaTeX's memory you used:
  53722 strings out of 471925
- 305239,2848258 words of node,token memory allocated
+ 305220,2848258 words of node,token memory allocated
  505 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 54 glue_spec,
  8 attribute_list, 2 write nodes
-   avail lists: 1:2,2:3170,3:760,4:4540,5:4208,6:79,7:10546,8:25,9:12787,10:59,1
+   avail lists: 1:1,2:3170,3:760,4:4540,5:4208,6:78,7:10546,8:25,9:12787,10:59,1
 1:955
  79370 multiletter control sequences out of 65536+600000
  122 fonts using 20568591 bytes
@@ -1877,7 +1877,7 @@ sers/Xarhs/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb
 ><C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb><C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmsy8.pfb>
-Output written on embedded_lab01.pdf (16 pages, 818019 bytes).
+Output written on embedded_lab01.pdf (16 pages, 818011 bytes).
 
 PDF statistics: 167 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
