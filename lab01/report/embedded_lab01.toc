@@ -23,6 +23,6 @@
 \contentsline {section}{\numberline {2}Βελτιστοποίηση της Εφαρμογής tables.c}{11}{}%
 \contentsline {subsection}{\numberline {2.1}Σύγκριση Αρχιτεκτονικών}{12}{}%
 \contentsline {subsection}{\numberline {2.2}Loop Unrolling}{13}{}%
-\contentsline {subsection}{\numberline {2.3}Μέγεθος L1 Data Cache}{13}{}%
+\contentsline {subsection}{\numberline {2.3}Μέγεθος L1 Data Cache}{14}{}%
 \contentsline {subsection}{\numberline {2.4}Βελτιστοποίηση με Εξαντλητική Αναζήτηση}{14}{}%
 \contentsline {subsection}{\numberline {2.5}Βελτιστοποίηση με τη χρήση Γενετικού Αλγορίθμου}{16}{}%

@@ -1,22 +1,18 @@
-This is LuaHBTeX, Version 1.24.0 (MiKTeX 25.12) (format=lualatex 2026.10.16)  11 NOV 2026 02:06
- system commands enabled.
- file:line:error style messages enabled.
-**c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embed
-ded_lab01
-
-(c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedd
-ed_lab01.tex
-LaTeX2e <2025-11-01>
-L3 programming layer <2025-12-24>
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2026.11.7)  12 NOV 2026 21:30
+ restricted system commands enabled.
+**embedded_lab01.tex
+(./embedded_lab01.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-04-14>
 Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
 Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended 
 collection.
-luaotfload | conf : Root cache directory is "C:/Users/ΝΙΚΟΣ/AppData/Local/M
-iKTeX/luatex-cache/generic/names".
+luaotfload | conf : Root cache directory is "C:/Users/Xarhs/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
 luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
-olved path "C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfl
-oad/fontloader-2023-12-28.lua".
+olved path "C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/f
+ontloader-2023-12-28.lua".
 Lua-only attribute luaotfload@noligature = 1
 luaotfload | init : Context OpenType loader version 3.134
 Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
@@ -24,8 +20,8 @@ Inserting `luaotfload.node_processor' in `hpack_filter'.
 Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
 Inserting `luaotfload.define_font' in `define_font'.
 Lua-only attribute luaotfload_color_attribute = 2
-luaotfload | conf : Root cache directory is "C:/Users/ΝΙΚΟΣ/AppData/Local/M
-iKTeX/luatex-cache/generic/names".
+luaotfload | conf : Root cache directory is "C:/Users/Xarhs/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
 Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
 Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
 Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
@@ -43,146 +39,136 @@ Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
-Inserting `tracingstacklevels' in `input_level_string'. (C:/Users/ΝΙΚΟΣ/Ap
-pData/Local/Programs/MiKTeX/tex/latex/base/article.cls
-Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/base/size12.clo
-File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from C:/Users/ΝΙΚΟΣ/AppData/Lo
-cal/MiKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz)
-\c@part=\count273
-\c@section=\count274
-\c@subsection=\count275
-\c@subsubsection=\count276
-\c@paragraph=\count277
-\c@subparagraph=\count278
-\c@figure=\count279
-\c@table=\count280
+Inserting `tracingstacklevels' in `input_level_string'. (C:/Users/Xarhs/AppData
+/Local/Programs/MiKTeX/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/base/size12.clo
+File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/Xarhs/AppData/Local/M
+iKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count270
+\c@section=\count271
+\c@subsection=\count272
+\c@subsubsection=\count273
+\c@paragraph=\count274
+\c@subparagraph=\count275
+\c@figure=\count276
+\c@table=\count277
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
-\bibindent=\dimen147
+\bibindent=\dimen145
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.
-sty
-Package: geometry 2026/03/07 v6.0 Page Geometry
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.st
-y
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty
+
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
-\Gm@cnth=\count281
-\Gm@cntv=\count282
-\c@Gm@tempcnt=\count283
-\Gm@bindingoffset=\dimen148
-\Gm@wd@mp=\dimen149
-\Gm@odd@mp=\dimen150
-\Gm@even@mp=\dimen151
-\Gm@layoutwidth=\dimen152
-\Gm@layoutheight=\dimen153
-\Gm@layouthoffset=\dimen154
-\Gm@layoutvoffset=\dimen155
+\Gm@cnth=\count278
+\Gm@cntv=\count279
+\c@Gm@tempcnt=\count280
+\Gm@bindingoffset=\dimen146
+\Gm@wd@mp=\dimen147
+\Gm@odd@mp=\dimen148
+\Gm@even@mp=\dimen149
+\Gm@layoutwidth=\dimen150
+\Gm@layoutheight=\dimen151
+\Gm@layouthoffset=\dimen152
+\Gm@layoutvoffset=\dimen153
 \Gm@dimlist=\toks18
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.
-cfg))
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.
-sty
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/
-xparse.sty
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-12-24 L3 programming layer (loader) 
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg)) (C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.sty
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xpars
+e.sty
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-04-14 L3 programming layer (loader) 
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backen
-d-luatex.def
-File: l3backend-luatex.def 2025-10-09 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count284
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-lua
+tex.def
+File: l3backend-luatex.def 2025-04-14 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count281
 Inserting `l3color' in `luaotfload.parse_color'.))
-Package: xparse 2025-10-09 L3 Experimental document command parser
+Package: xparse 2024-08-16 L3 Experimental document command parser
 )
-Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
-Lua module: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec-
-luatex.sty
-Package: fontspec-luatex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaT
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec-luate
+x.sty
+Package: fontspec-luatex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaT
 eX
-\l__fontspec_script_int=\count285
-\l__fontspec_language_int=\count286
-\l__fontspec_strnum_int=\count287
-\l__fontspec_tmp_int=\count288
-\l__fontspec_tmpa_int=\count289
-\l__fontspec_tmpb_int=\count290
-\l__fontspec_tmpc_int=\count291
-\l__fontspec_em_int=\count292
-\l__fontspec_emdef_int=\count293
-\l__fontspec_strong_int=\count294
-\l__fontspec_strongdef_int=\count295
-\l__fontspec_tmpa_dim=\dimen156
-\l__fontspec_tmpb_dim=\dimen157
-\l__fontspec_tmpc_dim=\dimen158
-
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/base/fontenc.sty
-Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.
-cfg)))
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/booktabs/booktabs.
-sty
+\l__fontspec_script_int=\count282
+\l__fontspec_language_int=\count283
+\l__fontspec_strnum_int=\count284
+\l__fontspec_tmp_int=\count285
+\l__fontspec_tmpa_int=\count286
+\l__fontspec_tmpb_int=\count287
+\l__fontspec_tmpc_int=\count288
+\l__fontspec_em_int=\count289
+\l__fontspec_emdef_int=\count290
+\l__fontspec_strong_int=\count291
+\l__fontspec_strongdef_int=\count292
+\l__fontspec_tmpa_dim=\dimen154
+\l__fontspec_tmpb_dim=\dimen155
+\l__fontspec_tmpc_dim=\dimen156
+ (C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.cfg
+)))
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen159
-\lightrulewidth=\dimen160
-\cmidrulewidth=\dimen161
-\belowrulesep=\dimen162
-\belowbottomsep=\dimen163
-\aboverulesep=\dimen164
-\abovetopsep=\dimen165
-\cmidrulesep=\dimen166
-\cmidrulekern=\dimen167
-\defaultaddspace=\dimen168
-\@cmidla=\count296
-\@cmidlb=\count297
-\@aboverulesep=\dimen169
-\@belowrulesep=\dimen170
-\@thisruleclass=\count298
-\@lastruleclass=\count299
-\@thisrulewidth=\dimen171
+\heavyrulewidth=\dimen157
+\lightrulewidth=\dimen158
+\cmidrulewidth=\dimen159
+\belowrulesep=\dimen160
+\belowbottomsep=\dimen161
+\aboverulesep=\dimen162
+\abovetopsep=\dimen163
+\cmidrulesep=\dimen164
+\cmidrulekern=\dimen165
+\defaultaddspace=\dimen166
+\@cmidla=\count293
+\@cmidlb=\count294
+\@aboverulesep=\dimen167
+\@belowrulesep=\dimen168
+\@thisruleclass=\count295
+\@lastruleclass=\count296
+\@thisrulewidth=\dimen169
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsmath.st
-y
-Package: amsmath 2025/07/09 v2.17z AMS math features
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amstext.st
-y
-Package: amstext 2024/11/17 v2.01 AMS text
-
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsgen.sty
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
-\ex@=\dimen172
+\ex@=\dimen170
 ))
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsbsy.sty
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen173
+\pmbraise@=\dimen171
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsopn.sty
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count300
+\inf@bad=\count297
 LaTeX Info: Redefining \frac on input line 235.
-\uproot@=\count301
-\leftroot@=\count302
+\uproot@=\count298
+\leftroot@=\count299
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count303
-\DOTSCASE@=\count304
+\classnum@=\count300
+\DOTSCASE@=\count301
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -192,39 +178,38 @@ LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen174
+\big@size=\dimen172
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count305
+\macc@depth=\count302
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count306
+\c@MaxMatrixCols=\count303
 \dotsspace@=\muskip17
-\c@parentequation=\count307
-\dspbrk@lvl=\count308
+\c@parentequation=\count304
+\dspbrk@lvl=\count305
 \tag@help=\toks20
-\row@=\count309
-\column@=\count310
-\maxfields@=\count311
+\row@=\count306
+\column@=\count307
+\maxfields@=\count308
 \andhelp@=\toks21
-\eqnshift@=\dimen175
-\alignsep@=\dimen176
-\tagshift@=\dimen177
-\tagwidth@=\dimen178
-\totwidth@=\dimen179
-\lineht@=\dimen180
+\eqnshift@=\dimen173
+\alignsep@=\dimen174
+\tagshift@=\dimen175
+\tagwidth@=\dimen176
+\totwidth@=\dimen177
+\lineht@=\dimen178
 \@envbody=\toks22
 \multlinegap=\skip52
 \multlinetaggap=\skip53
 \mathdisplay@stack=\toks23
-LaTeX Info: Redefining \[ on input line 2950.
-LaTeX Info: Redefining \] on input line 2951.
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amsfonts.
-sty
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -232,132 +217,124 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphicx.
-sty
-Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphics.
-sty
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/graph
-ics.cfg
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/graphics.c
+fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: luatex.def on input line 106.
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/luate
-x.def
-File: luatex.def 2025/09/29 v1.2f Graphics/color driver for luatex
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/luatex.def
+File: luatex.def 2024/04/13 v1.2e Graphics/color driver for luatex
 ))
-\Gin@req@height=\dimen181
-\Gin@req@width=\dimen182
+\Gin@req@height=\dimen179
+\Gin@req@width=\dimen180
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/circuitikz/circuit
-ikz.sty
-Package: circuitikz 2026/09/12{} The CircuiTikz circuit drawing package version
- 1.8.7
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/circuitikz/circuitikz.s
+ty
+Package: circuitikz 2025/07/08{} The CircuiTikz circuit drawing package version
+ 1.8.2
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/pgf/frontendlayer/
-tikz.sty
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgf
-.sty
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfr
-cs.sty
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pg
-futil-common.tex
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/pgf/frontendlayer/tikz.
+sty
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgf.sty
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfrcs.st
+y
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil
+-common.tex
 \pgfutil@everybye=\toks24
-\pgfutil@tempdima=\dimen183
-\pgfutil@tempdimb=\dimen184
+\pgfutil@tempdima=\dimen181
+\pgfutil@tempdimb=\dimen182
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pg
-futil-latex.def
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil
+-latex.def
 \pgfutil@abb=\box55
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pg
-frcs.code.tex
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/pgf.revision
-.tex)
-Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfrcs.
+code.tex
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
-Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgf
-core.sty
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/pgf/systemlayer/pg
-fsys.sty
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/
-pgfsys.code.tex
-Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgfcore.
+sty
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/pgf/systemlayer/pgfsys.
+sty
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
+s.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pg
-fkeys.code.tex
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys
+.code.tex
 \pgfkeys@pathtoks=\toks25
 \pgfkeys@temptoks=\toks26
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pg
-fkeyslibraryfiltered.code.tex
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys
+libraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks27
 ))
-\pgf@x=\dimen185
-\pgf@y=\dimen186
-\pgf@xa=\dimen187
-\pgf@ya=\dimen188
-\pgf@xb=\dimen189
-\pgf@yb=\dimen190
-\pgf@xc=\dimen191
-\pgf@yc=\dimen192
-\pgf@xd=\dimen193
-\pgf@yd=\dimen194
+\pgf@x=\dimen183
+\pgf@y=\dimen184
+\pgf@xa=\dimen185
+\pgf@ya=\dimen186
+\pgf@xb=\dimen187
+\pgf@yb=\dimen188
+\pgf@xc=\dimen189
+\pgf@yc=\dimen190
+\pgf@xd=\dimen191
+\pgf@yd=\dimen192
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count312
-\c@pgf@countb=\count313
-\c@pgf@countc=\count314
-\c@pgf@countd=\count315
+\c@pgf@counta=\count309
+\c@pgf@countb=\count310
+\c@pgf@countc=\count311
+\c@pgf@countd=\count312
 \t@pgf@toka=\toks28
 \t@pgf@tokb=\toks29
 \t@pgf@tokc=\toks30
-\pgf@sys@id@count=\count316
+\pgf@sys@id@count=\count313
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/
-pgf.cfg
-File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgf.c
+fg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-luatex.def
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/
-pgfsys-luatex.def
-File: pgfsys-luatex.def 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
+s-luatex.def
+File: pgfsys-luatex.def 2023-01-15 v3.1.10 (3.1.10)
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/
-pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 )))
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/
-pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfsyssoftpath@smallbuffer@items=\count317
-\pgfsyssoftpath@bigbuffer@items=\count318
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count314
+\pgfsyssoftpath@bigbuffer@items=\count315
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/
-pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color
-.cfg
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: luatex.def on input line 274.
-
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/graphics/mathcolor
-.ltx)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -368,380 +345,374 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/p
-gfcore.code.tex
-Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+e.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath
-.code.tex
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath
-util.code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath
-parser.code.tex
-\pgfmath@dimen=\dimen195
-\pgfmath@count=\count319
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.code
+.tex
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathutil.
+code.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen193
+\pgfmath@count=\count316
 \pgfmath@box=\box56
 \pgfmath@toks=\toks31
 \pgfmath@stack@operand=\toks32
 \pgfmath@stack@operation=\toks33
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath
-functions.code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath
-functions.basic.code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath
-functions.trigonometric.code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath
-functions.random.code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath
-functions.comparison.code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath
-functions.base.code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath
-functions.round.code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath
-functions.misc.code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath
-functions.integerarithmetics.code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath
-calc.code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath
-float.code.tex
-\c@pgfmathroundto@lastzeros=\count320
-))
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfint.
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.code.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.basic.code.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.trigonometric.code.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.random.code.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.comparison.code.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.base.code.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.round.code.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.misc.code.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathcalc.
 code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/p
-gfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@picminx=\dimen196
-\pgf@picmaxx=\dimen197
-\pgf@picminy=\dimen198
-\pgf@picmaxy=\dimen199
-\pgf@pathminx=\dimen256
-\pgf@pathmaxx=\dimen257
-\pgf@pathminy=\dimen258
-\pgf@pathmaxy=\dimen259
-\pgf@xx=\dimen260
-\pgf@xy=\dimen261
-\pgf@yx=\dimen262
-\pgf@yy=\dimen263
-\pgf@zx=\dimen264
-\pgf@zy=\dimen265
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count317
+))
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfint.code.
+tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen194
+\pgf@picmaxx=\dimen195
+\pgf@picminy=\dimen196
+\pgf@picmaxy=\dimen197
+\pgf@pathminx=\dimen198
+\pgf@pathmaxx=\dimen199
+\pgf@pathminy=\dimen256
+\pgf@pathmaxy=\dimen257
+\pgf@xx=\dimen258
+\pgf@xy=\dimen259
+\pgf@yx=\dimen260
+\pgf@yy=\dimen261
+\pgf@zx=\dimen262
+\pgf@zy=\dimen263
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/p
-gfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@path@lastx=\dimen266
-\pgf@path@lasty=\dimen267
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen264
+\pgf@path@lasty=\dimen265
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/p
-gfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@shorten@end@additional=\dimen268
-\pgf@shorten@start@additional=\dimen269
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen266
+\pgf@shorten@start@additional=\dimen267
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/p
-gfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box57
 \pgf@hbox=\box58
 \pgf@layerbox@main=\box59
-\pgf@picture@serial@count=\count321
+\pgf@picture@serial@count=\count318
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/p
-gfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgflinewidth=\dimen270
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen268
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/p
-gfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@pt@x=\dimen271
-\pgf@pt@y=\dimen272
-\pgf@pt@temp=\dimen273
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen269
+\pgf@pt@y=\dimen270
+\pgf@pt@temp=\dimen271
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/p
-gfcorequick.code.tex
-File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/p
-gfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/p
-gfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/p
-gfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowsep=\dimen274
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen272
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/p
-gfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@max=\dimen275
-\pgf@sys@shading@range@num=\count322
-\pgf@shadingcount=\count323
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen273
+\pgf@sys@shading@range@num=\count319
+\pgf@shadingcount=\count320
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/p
-gfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/p
-gfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfexternal@startupbox=\box60
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/p
-gfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/p
-gfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/p
-gfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/p
-gfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfm
-oduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodeparttextbox=\box61
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfm
-oduleplot.code.tex
-File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/
-pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@nodesepstart=\dimen276
-\pgf@nodesepend=\dimen277
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen274
+\pgf@nodesepend=\dimen275
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/
-pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 ))
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgff
-or.sty
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfk
-eys.sty
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pg
-fkeys.code.tex))
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/pgf/math/pgfmath.s
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgffor.st
+y
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfkeys.s
 ty
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys
 .code.tex))
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pg
-ffor.code.tex
-Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
-\pgffor@iter=\dimen278
-\pgffor@skip=\dimen279
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/pgf/math/pgfmath.sty
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.code
+.tex))
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgffor.
+code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen276
+\pgffor@skip=\dimen277
 \pgffor@stack=\toks34
 \pgffor@toks=\toks35
 ))
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlaye
-r/tikz/tikz.code.tex
-Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pg
-flibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count324
-\pgfplotmarksize=\dimen280
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count321
+\pgfplotmarksize=\dimen278
 )
-\tikz@lastx=\dimen281
-\tikz@lasty=\dimen282
-\tikz@lastxsaved=\dimen283
-\tikz@lastysaved=\dimen284
-\tikz@lastmovetox=\dimen285
-\tikz@lastmovetoy=\dimen286
-\tikzleveldistance=\dimen287
-\tikzsiblingdistance=\dimen288
+\tikz@lastx=\dimen279
+\tikz@lasty=\dimen280
+\tikz@lastxsaved=\dimen281
+\tikz@lastysaved=\dimen282
+\tikz@lastmovetox=\dimen283
+\tikz@lastmovetoy=\dimen284
+\tikzleveldistance=\dimen285
+\tikzsiblingdistance=\dimen286
 \tikz@figbox=\box62
 \tikz@figbox@bg=\box63
 \tikz@tempbox=\box64
 \tikz@tempbox@bg=\box65
-\tikztreelevel=\count325
-\tikznumberofchildren=\count326
-\tikznumberofcurrentchild=\count327
-\tikz@fig@count=\count328
+\tikztreelevel=\count322
+\tikznumberofchildren=\count323
+\tikznumberofcurrentchild=\count324
+\tikz@fig@count=\count325
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfm
-odulematrix.code.tex
-File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count329
-\pgfmatrixcurrentcolumn=\count330
-\pgf@matrix@numberofcolumns=\count331
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count326
+\pgfmatrixcurrentcolumn=\count327
+\pgf@matrix@numberofcolumns=\count328
 )
-\tikz@expandcount=\count332
+\tikz@expandcount=\count329
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlaye
-r/tikz/libraries/tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlaye
-r/tikz/libraries/tikzlibrarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pg
-flibraryarrows.meta.code.tex
-File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowinset=\dimen289
-\pgfarrowlength=\dimen290
-\pgfarrowwidth=\dimen291
-\pgfarrowlinewidth=\dimen292
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
+aryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen287
+\pgfarrowlength=\dimen288
+\pgfarrowwidth=\dimen289
+\pgfarrowlinewidth=\dimen290
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlaye
-r/tikz/libraries/tikzlibrarybending.code.tex
-File: tikzlibrarybending.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarybending.code.tex
+File: tikzlibrarybending.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfm
-odulebending.code.tex
-File: pgfmodulebending.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
+bending.code.tex
+File: pgfmodulebending.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfm
-odulenonlineartransformations.code.tex
-File: pgfmodulenonlineartransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgftransformnonlinearflatness=\dimen293
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
+nonlineartransformations.code.tex
+File: pgfmodulenonlineartransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgftransformnonlinearflatness=\dimen291
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pg
-flibrarycurvilinear.code.tex
-File: pgflibrarycurvilinear.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@curvilinear@time@a=\dimen294
-\pgf@curvilinear@length@a=\dimen295
-\pgf@curvilinear@length@b=\dimen296
-\pgf@curvilinear@length@c=\dimen297
-\pgf@curvilinear@length@d=\dimen298
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
+arycurvilinear.code.tex
+File: pgflibrarycurvilinear.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@curvilinear@time@a=\dimen292
+\pgf@curvilinear@length@a=\dimen293
+\pgf@curvilinear@length@b=\dimen294
+\pgf@curvilinear@length@c=\dimen295
+\pgf@curvilinear@length@d=\dimen296
 )
-\pgf@arrows@the@rigidity=\dimen299
+\pgf@arrows@the@rigidity=\dimen297
 ))
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlaye
-r/tikz/libraries/tikzlibraryfpu.code.tex
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pg
-flibraryfpu.code.tex))
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfci
-rc.defines.tex
-\pgf@circ@count@a=\count333
-\pgf@circ@count@b=\count334
-\pgf@circ@count@c=\count335
-\pgf@circ@res@up=\dimen300
-\pgf@circ@res@down=\dimen301
-\pgf@circ@res@zero=\dimen302
-\pgf@circ@res@left=\dimen303
-\pgf@circ@res@right=\dimen304
-\pgf@circ@res@other=\dimen305
-\pgf@circ@res@step=\dimen306
-\pgf@circ@res@temp=\dimen307
-\pgf@circ@Rlen=\dimen308
-\pgf@circ@scaled@Rlen=\dimen309
-\pgfstartlinewidth=\dimen310
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibraryfpu.code.tex
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
+aryfpu.code.tex))
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcirc.de
+fines.tex
+\pgf@circ@count@a=\count330
+\pgf@circ@count@b=\count331
+\pgf@circ@count@c=\count332
+\pgf@circ@res@up=\dimen298
+\pgf@circ@res@down=\dimen299
+\pgf@circ@res@zero=\dimen300
+\pgf@circ@res@left=\dimen301
+\pgf@circ@res@right=\dimen302
+\pgf@circ@res@other=\dimen303
+\pgf@circ@res@step=\dimen304
+\pgf@circ@res@temp=\dimen305
+\pgf@circ@Rlen=\dimen306
+\pgf@circ@scaled@Rlen=\dimen307
+\pgfstartlinewidth=\dimen308
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfci
-rcutils.tex
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcircuti
+ls.tex
 \ctikz@scratchbox=\box66
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfci
-rcpath.tex
-\ctikz@vif@count=\count336
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcircpat
+h.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcircsha
+pes.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcircmon
+opoles.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcircbip
+oles.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcirctri
+poles.tex
+\pgf@circ@res@count=\count333
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfci
-rcshapes.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfci
-rcmonopoles.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfci
-rcbipoles.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfci
-rctripoles.tex
-\pgf@circ@res@count=\count337
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcircqua
+dpoles.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcircmul
+tipoles.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcirclab
+el.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcircvol
+tage.tex
+\pgfcirc@labelshift=\dimen309
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfci
-rcquadpoles.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfci
-rcmultipoles.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfci
-rclabel.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfci
-rcvoltage.tex
-\pgfcirc@labelshift=\dimen311
-)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfci
-rccurrent.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfci
-rcflow.tex))
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/polygl
-ossia.sty
-Package: polyglossia 2026/09/11 v2.13 Modern multilingual typesetting with XeLa
-TeX and LuaLaTeX
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcirccur
+rent.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/circuitikz/pgfcircflo
+w.tex))
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/polyglossia
+.sty
+Package: polyglossia 2025/09/22 v2.8 Modern multilingual typesetting with XeLaT
+eX and LuaLaTeX
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.
-sty
-Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count338
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count334
 )
 Lua module: polyglossia 2013/05/11 v1.3 Polyglossia
-\l_xpg_alias_keyvals_int=\count339
+\l_xpg_alias_keyvals_int=\count335
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/gloss-
-latex.ldf
-File: gloss-latex.ldf 2026/09/11 v2.13 polyglossia: module for default language
-
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/gloss-latex
+.ldf
+File: gloss-latex.ldf polyglossia: module for default language
 )
 
 Package polyglossia Info: Setting LuaTeX font renderer to Harfbuzz
 
-)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty
+) (C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count340
+\c@float@type=\count336
 \float@exts=\toks36
 \float@box=\box67
 \@float@everytoks=\toks37
 \@floatcapt=\box68
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/gloss-
-greek.ldf
-File: gloss-greek.ldf 2026/09/11 v2.13 polyglossia: module for Greek
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/gloss-greek
+.ldf
+File: gloss-greek.ldf polyglossia: module for Greek
 Module polyglossia Info: Language data for greek
 (polyglossia)            hyphenation	
 (polyglossia)            lefthyphenmin	1
 (polyglossia)            loader	loadhyph-el-polyton.tex
 (polyglossia)            patterns	hyph-el-polyton.pat.txt
 (polyglossia)            righthyphenmin	1
-(polyglossia)            synonyms	polygreek on input line 18
+(polyglossia)            synonyms	polygreek on input line 20
 Module polyglossia Info: Language greek was not yet loaded; created with id 2 on
- input line 18
+ input line 20
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/xgreek
--fixes.def)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/xgreek-fixe
+s.def)
 Module polyglossia Info: Language data for monogreek
 (polyglossia)            hyphenation	
 (polyglossia)            lefthyphenmin	1
 (polyglossia)            loader	loadhyph-el-monoton.tex
 (polyglossia)            patterns	hyph-el-monoton.pat.txt
 (polyglossia)            righthyphenmin	1
-(polyglossia)            synonyms	 on input line 163
+(polyglossia)            synonyms	 on input line 165
 Module polyglossia Info: Language monogreek was not yet loaded; created with id 
-3 on input line 163
-\@attic@num=\count341
+3 on input line 165
+\@attic@num=\count337
 )
 
 Package polyglossia Info: Default language is greek
 
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/gloss-
-english.ldf
-File: gloss-english.ldf 2026/09/11 v2.13 polyglossia: module for English
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/gloss-engli
+sh.ldf
+File: gloss-english.ldf polyglossia: module for English
 )
-luaotfload | cache : Lookup cache loaded from C:/Users/ΝΙΚΟΣ/AppData/Local/
-MiKTeX/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+luaotfload | cache : Lookup cache loaded from C:/Users/Xarhs/AppData/Local/MiKTe
+X/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
 
 Package fontspec Info: 
 (fontspec)             Font family 'PalatinoLinotype(0)' created for font
@@ -778,68 +749,64 @@ cp;"
 mcp;"
 
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/caption/subcaption
-.sty
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption.st
-y
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption3.s
-ty
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen312
-\captionmargin=\dimen313
-\caption@leftmargin=\dimen314
-\caption@rightmargin=\dimen315
-\caption@width=\dimen316
-\caption@indent=\dimen317
-\caption@parindent=\dimen318
-\caption@hangindent=\dimen319
+\caption@tempdima=\dimen310
+\captionmargin=\dimen311
+\caption@leftmargin=\dimen312
+\caption@rightmargin=\dimen313
+\caption@width=\dimen314
+\caption@indent=\dimen315
+\caption@parindent=\dimen316
+\caption@hangindent=\dimen317
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count342
-\c@continuedfloat=\count343
+\c@caption@flags=\count338
+\c@continuedfloat=\count339
 Package caption Info: float package is loaded.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count344
+\c@subfigure=\count340
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count345
-)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/siunitx/siunitx.st
-y
-Package: siunitx 2026-11-06 v3.6.7 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count346
-\l__siunitx_number_exponent_fixed_int=\count347
-\l__siunitx_number_min_decimal_int=\count348
-\l__siunitx_number_min_integer_int=\count349
-\l__siunitx_number_round_precision_int=\count350
-\l__siunitx_number_lower_threshold_int=\count351
-\l__siunitx_number_upper_threshold_int=\count352
-\l__siunitx_number_group_first_int=\count353
-\l__siunitx_number_group_size_int=\count354
-\l__siunitx_number_group_min_int=\count355
-\l__siunitx_number_group_minimum_int=\count356
-\l__siunitx_compound_count_int=\count357
+\c@subtable=\count341
+) (C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count342
+\l__siunitx_number_exponent_fixed_int=\count343
+\l__siunitx_number_min_decimal_int=\count344
+\l__siunitx_number_min_integer_int=\count345
+\l__siunitx_number_round_precision_int=\count346
+\l__siunitx_number_lower_threshold_int=\count347
+\l__siunitx_number_upper_threshold_int=\count348
+\l__siunitx_number_group_first_int=\count349
+\l__siunitx_number_group_size_int=\count350
+\l__siunitx_number_group_minimum_int=\count351
+\l__siunitx_angle_tmp_dim=\dimen318
+\l__siunitx_angle_marker_box=\box69
+\l__siunitx_angle_unit_box=\box70
+\l__siunitx_compound_count_int=\count352
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/translations/trans
-lations.sty
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/translations/translatio
+ns.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pdftexcmds/pdfte
-xcmds.sty
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pdftexcmds/pdftexcmds
+.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/infwarerr/infwar
-err.sty
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/infwarerr/infwarerr.s
+ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/ltxcmds/ltxcmds.
-sty
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -847,35 +814,31 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 \pdftexcmds@toks=\toks38
 ))
-Include code introduced on 2026-09-12
-\l__siunitx_table_tmp_box=\box69
-\l__siunitx_table_tmp_dim=\dimen320
-\l__siunitx_table_column_width_dim=\dimen321
-\l__siunitx_table_integer_box=\box70
-\l__siunitx_table_decimal_box=\box71
-\l__siunitx_table_uncert_box=\box72
-\l__siunitx_table_before_box=\box73
-\l__siunitx_table_after_box=\box74
-\l__siunitx_table_before_dim=\dimen322
-\l__siunitx_table_carry_dim=\dimen323
-\l__siunitx_unit_tmp_int=\count358
-\l__siunitx_unit_position_int=\count359
-\l__siunitx_unit_total_int=\count360
-\l__siunitx_sexagesimal_tmp_dim=\dimen324
-\l__siunitx_sexagesimal_marker_box=\box75
-\l__siunitx_sexagesimal_unit_box=\box76
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty
-Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
-\col@sep=\dimen325
+\l__siunitx_table_tmp_box=\box71
+\l__siunitx_table_tmp_dim=\dimen319
+\l__siunitx_table_column_width_dim=\dimen320
+\l__siunitx_table_integer_box=\box72
+\l__siunitx_table_decimal_box=\box73
+\l__siunitx_table_uncert_box=\box74
+\l__siunitx_table_before_box=\box75
+\l__siunitx_table_after_box=\box76
+\l__siunitx_table_before_dim=\dimen321
+\l__siunitx_table_carry_dim=\dimen322
+\l__siunitx_unit_tmp_int=\count353
+\l__siunitx_unit_position_int=\count354
+\l__siunitx_unit_total_int=\count355
+ (C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen323
 \ar@mcellbox=\box77
-\extrarowheight=\dimen326
+\extrarowheight=\dimen324
 \NC@list=\toks39
 \extratabsurround=\skip54
 \backup@length=\skip55
 \ar@cellbox=\box78
 ))
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/tools/bm.sty
-Package: bm 2025/10/21 v1.2g Bold Symbol Support (DPC/FMi)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/tools/bm.sty
+Package: bm 2023/12/19 v1.2f Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
 \symboldletters=\mathgroup7
 \symboldsymbols=\mathgroup8
@@ -884,191 +847,183 @@ Package bm Info: No bold for \U/msa/m/n, using \pmb.
 Package bm Info: No bold for \U/msb/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/pgfplots/pgfplots.
-sty
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
-s.revision.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/pgfplots/pgfplots.sty
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.rev
+ision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
-s.code.tex
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
-score.code.tex
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.cod
+e.tex
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotscore
+.code.tex
 Package pgfplots info on input line 124: Initializing with LUA version Lua 5.3
 \pgfplots@luabackend@table=\catcodetable14
 \t@pgfplots@toka=\toks40
 \t@pgfplots@tokb=\toks41
 \t@pgfplots@tokc=\toks42
-\pgfplots@tmpa=\dimen327
-\c@pgfplots@coordindex=\count361
-\c@pgfplots@scanlineindex=\count362
+\pgfplots@tmpa=\dimen325
+\c@pgfplots@coordindex=\count356
+\c@pgfplots@scanlineindex=\count357
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/sys/pgf
-plotssysgeneric.code.tex))
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/pg
-fplotslibrary.code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/oldpgfc
-ompatib/pgfplotsoldpgfsupp_loader.code.tex
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/sys/pgfplots
+sysgeneric.code.tex))
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/pgfplot
+slibrary.code.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/oldpgfcompat
+ib/pgfplotsoldpgfsupp_loader.code.tex
 Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgf@toka=\toks43
 \t@pgf@tokb=\toks44
 \t@pgf@tokc=\toks45
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/oldpgfc
-ompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/lu
-amath/pgflibraryluamath.code.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/oldpgfcompat
+ib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/luamath
+/pgflibraryluamath.code.tex)
 Package pgfplots info on input line 290: luamath library shipped with pgf 3.1.1
-1a is up-to-date
+0 is up-to-date
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pg
-fplotsutil.code.tex
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
+sutil.code.tex
 Package pgfplots info on input line 82: Found new luatex: initializing lua comm
 ands instead of write18 (shell-escape)
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststr
-ucture/pgfplotsliststructure.code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststr
-ucture/pgfplotsliststructureext.code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststr
-ucture/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count363
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
+e/pgfplotsliststructure.code.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
+e/pgfplotsliststructureext.code.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
+e/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count358
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststr
-ucture/pgfplotsmatrix.code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/numtabl
-e/pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count364
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
+e/pgfplotsmatrix.code.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/numtable/pgf
+plotstableshared.code.tex
+\c@pgfplotstable@counta=\count359
 \t@pgfplotstable@a=\toks46
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststr
-ucture/pgfplotsdeque.code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pg
-fplotsbinary.code.tex
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pg
-fplotsbinary.data.code.tex))
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pg
-fplotsutil.verb.code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/pg
-flibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count365
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
+e/pgfplotsdeque.code.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
+sbinary.code.tex
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
+sbinary.data.code.tex))
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
+sutil.verb.code.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/pgflibr
+arypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count360
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/sys/pgf
-librarypgfplots.surfshading.pgfsys-luatex.def)))
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pg
-fplotscolormap.code.tex
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pg
-fplotscolor.code.tex))
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
-sstackedplots.code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
-splothandlers.code.tex
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
-smeshplothandler.code.tex
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
-smeshplotimage.code.tex)))
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
-s.scaling.code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
-scoordprocessing.code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
-s.errorbars.code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
-s.markers.code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
-sticks.code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplot
-s.paths.code.tex)
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlaye
-r/tikz/libraries/tikzlibrarydecorations.code.tex
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfm
-oduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen328
-\pgfdecoratedremainingdistance=\dimen329
-\pgfdecoratedinputsegmentcompleteddistance=\dimen330
-\pgfdecoratedinputsegmentremainingdistance=\dimen331
-\pgf@decorate@distancetomove=\dimen332
-\pgf@decorate@repeatstate=\count366
-\pgfdecorationsegmentamplitude=\dimen333
-\pgfdecorationsegmentlength=\dimen334
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/sys/pgflibra
+rypgfplots.surfshading.pgfsys-luatex.def)))
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
+scolormap.code.tex
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
+scolor.code.tex))
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsstac
+kedplots.code.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsplot
+handlers.code.tex
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsmesh
+plothandler.code.tex
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsmesh
+plotimage.code.tex)))
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.sca
+ling.code.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotscoor
+dprocessing.code.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.err
+orbars.code.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.mar
+kers.code.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotstick
+s.code.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.pat
+hs.code.tex)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarydecorations.code.tex
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
+decorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen326
+\pgfdecoratedremainingdistance=\dimen327
+\pgfdecoratedinputsegmentcompleteddistance=\dimen328
+\pgfdecoratedinputsegmentremainingdistance=\dimen329
+\pgf@decorate@distancetomove=\dimen330
+\pgf@decorate@repeatstate=\count361
+\pgfdecorationsegmentamplitude=\dimen331
+\pgfdecorationsegmentlength=\dimen332
 )
 \tikz@lib@dec@box=\box79
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlaye
-r/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/de
-corations/pgflibrarydecorations.pathmorphing.code.tex))
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlaye
-r/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/de
-corations/pgflibrarydecorations.pathreplacing.code.tex))
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/ti
-kzlibrarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count367
-\pgfplots@xmin@reg=\dimen335
-\pgfplots@xmax@reg=\dimen336
-\pgfplots@ymin@reg=\dimen337
-\pgfplots@ymax@reg=\dimen338
-\pgfplots@zmin@reg=\dimen339
-\pgfplots@zmax@reg=\dimen340
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarydecorations.pathmorphing.code.tex
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/decorat
+ions/pgflibrarydecorations.pathmorphing.code.tex))
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarydecorations.pathreplacing.code.tex
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/decorat
+ions/pgflibrarydecorations.pathreplacing.code.tex))
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/tikzlib
+rarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count362
+\pgfplots@xmin@reg=\dimen333
+\pgfplots@xmax@reg=\dimen334
+\pgfplots@ymin@reg=\dimen335
+\pgfplots@ymax@reg=\dimen336
+\pgfplots@zmin@reg=\dimen337
+\pgfplots@zmax@reg=\dimen338
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlaye
-r/tikz/libraries/tikzlibraryplotmarks.code.tex
-File: tikzlibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pg
-flibraryplotmarks.code.tex
-File: pgflibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
+aryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.
-sty
-\lst@mode=\count368
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.sty
+\lst@mode=\count363
 \lst@gtempboxa=\box80
 \lst@token=\toks47
-\lst@length=\count369
-\lst@currlwidth=\dimen341
-\lst@column=\count370
-\lst@pos=\count371
-\lst@lostspace=\dimen342
-\lst@width=\dimen343
-\lst@newlines=\count372
-\lst@lineno=\count373
-\lst@maxwidth=\dimen344
+\lst@length=\count364
+\lst@currlwidth=\dimen339
+\lst@column=\count365
+\lst@pos=\count366
+\lst@lostspace=\dimen340
+\lst@width=\dimen341
+\lst@newlines=\count367
+\lst@lineno=\count368
+\lst@maxwidth=\dimen342
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstpatch.
-sty
-File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc.s
-ty
-File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-\c@lstnumber=\count374
-\lst@skipnumbers=\count375
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count369
+\lst@skipnumbers=\count370
 \lst@framebox=\box81
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.
-cfg
-File: listings.cfg 2025/11/14 1.11b listings configuration
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
 ))
-Package: listings 2025/11/14 1.11b (Carsten Heinz)
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
 
-==> First Aid for listings.sty no longer applied!
-    Expected:
-        2024/09/23 1.10c (Carsten Heinz)
-    but found:
-        2025/11/14 1.11b (Carsten Heinz)
-    so I'm assuming it got fixed.
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/csvsimple/csvsimple-l3.
+sty
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/csvsimple/csvsimpl
-e-l3.sty
+LaTeX Warning: You have requested release `2025-11-01' of LaTeX,
+               but only release `2024-11-01' is available.
+
 Package: csvsimple-l3 2026/07/01 v3.0.0 LaTeX3 CSV file processing
-\g__csvsim_col_int=\count376
-\g__csvsim_colmax_int=\count377
-\g_csvsim_columncount_int=\count378
-\g_csvsim_inputline_int=\count379
-\g_csvsim_row_int=\count380
-\l__csvsim_tmpa_int=\count381
-\l__csvsim_tmpb_int=\count382
+\g__csvsim_col_int=\count371
+\g__csvsim_colmax_int=\count372
+\g_csvsim_columncount_int=\count373
+\g_csvsim_inputline_int=\count374
+\g_csvsim_row_int=\count375
+\l__csvsim_tmpa_int=\count376
+\l__csvsim_tmpb_int=\count377
 )
 
 Package fontspec Info: 
@@ -1224,39 +1179,37 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 54.
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-p
-df.mkii
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
+ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count383
-\scratchdimen=\dimen345
+\scratchcounter=\count378
+\scratchdimen=\dimen343
 \scratchbox=\box82
-\nofMPsegments=\count384
-\nofMParguments=\count385
+\nofMPsegments=\count379
+\nofMParguments=\count380
 \everyMPshowfont=\toks48
-\MPscratchCnt=\count386
-\MPscratchDim=\dimen346
-\MPnumerator=\count387
-\makeMPintoPDFobject=\count388
+\MPscratchCnt=\count381
+\MPscratchDim=\dimen344
+\MPnumerator=\count382
+\makeMPintoPDFobject=\count383
 \everyMPtoPDFconversion=\toks49
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epsto
-pdf-base.sty
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-b
+ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/00miktex/epstopdf-
-sys.cfg
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/00miktex/epstopdf-sys.c
+fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package translations Info: no dictionary file `translations-basic-dictionary-gr
-eek.trsl' found. on input line 54.
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/translations/dicts
-/translations-basic-dictionary-english.trsl
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/translations/dicts/tran
+slations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
@@ -1266,28 +1219,38 @@ or `english'. on input line 54.
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-\c@lstlisting=\count389
+\c@lstlisting=\count384
+
+Overfull \hbox (9.86563pt too wide) in paragraph at lines 94--97
+\TU/PalatinoLinotype(1)/m/n/12 μέ-νων Συ-στη-μά-των” και 
+αφορά τη βελ-τι-στο-ποί-ηση κώ-δικα και το Desig
+n Space Exploration
+ []
+
+
+
 [1
 
-{C:/Users/ΝΙΚΟΣ/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/Xarhs/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 (./embedded_lab01.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write4
 
 \openout4 = embedded_lab01.toc
+
+
 [2]
 
-c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:115: Package polyglossia Error: The current main monospace font,
+! Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1307,8 +1270,7 @@ If that doesn't work, type X <return> to quit.
 
 
 
-c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:115: Package polyglossia Error: The current main monospace font,
+! Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1334,8 +1296,7 @@ U/lmtt/m/n/12 0000 0000h\TU/PalatinoLinotype(1)/m/n/12 --\TU/lmtt/m/n/12 003F
  []
 
 
-c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:136: Package polyglossia Error: The current main monospace font,
+! Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1354,8 +1315,7 @@ If that doesn't work, type X <return> to quit.
 
 
 
-c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:136: Package polyglossia Error: The current main monospace font,
+! Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1386,8 +1346,7 @@ File: iclk_240mhz.png.png Graphic file (type png)
 Package luatex.def Info: iclk_240mhz.png.png  used on input line 140.
 (luatex.def)             Requested size: 145.11053pt x 40.53407pt.
 
-c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:146: Package polyglossia Error: The current main monospace font,
+! Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1406,8 +1365,7 @@ If that doesn't work, type X <return> to quit.
 
 
 
-c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:146: Package polyglossia Error: The current main monospace font,
+! Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1425,6 +1383,8 @@ Try typing <return> to proceed.
 If that doesn't work, type X <return> to quit.
 
 
+
+
 [3<./iclk_240mhz.png.png>]
 <debug_baseline.png.png, id=22, 384.2355pt x 154.176pt>
 File: debug_baseline.png.png Graphic file (type png)
@@ -1433,8 +1393,7 @@ Package luatex.def Info: debug_baseline.png.png  used on input line 150.
 (luatex.def)             Requested size: 386.95897pt x 155.27423pt.
 
 
-c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:161: Package polyglossia Error: The current main monospace font,
+! Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1457,6 +1416,8 @@ File: unroll.png Graphic file (type png)
 <use unroll.png>
 Package luatex.def Info: unroll.png  used on input line 165.
 (luatex.def)             Requested size: 338.58632pt x 156.78264pt.
+
+
 [4<./debug_baseline.png.png>]
 Overfull \hbox (2.4125pt too wide) in paragraph at lines 173--174
 \TU/PalatinoLinotype(1)/b/n/12 Loop Reversal.[] \TU/PalatinoLinotype(1)/m/n/12 
@@ -1470,8 +1431,7 @@ File: unroll_reversal.png Graphic file (type png)
 Package luatex.def Info: unroll_reversal.png  used on input line 177.
 (luatex.def)             Requested size: 338.58632pt x 148.66121pt.
 
-c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:185: Package polyglossia Error: The current main monospace font,
+! Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1490,8 +1450,7 @@ If that doesn't work, type X <return> to quit.
 
 
 
-c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:185: Package polyglossia Error: The current main monospace font,
+! Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1510,8 +1469,7 @@ If that doesn't work, type X <return> to quit.
 
 
 
-c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:185: Package polyglossia Error: The current main monospace font,
+! Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1531,8 +1489,7 @@ If that doesn't work, type X <return> to quit.
 
 
 
-c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:185: Package polyglossia Error: The current main monospace font,
+! Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1551,8 +1508,7 @@ If that doesn't work, type X <return> to quit.
 
 
 
-c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:185: Package polyglossia Error: The current main monospace font,
+! Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1571,6 +1527,8 @@ Try typing <return> to proceed.
 If that doesn't work, type X <return> to quit.
 
 
+
+
 [5<./unroll.png><./unroll_reversal.png>]
 <unroll_reversal_drt.png, id=34, 349.90726pt x 178.86826pt>
 File: unroll_reversal_drt.png Graphic file (type png)
@@ -1579,8 +1537,7 @@ Package luatex.def Info: unroll_reversal_drt.png  used on input line 189.
 (luatex.def)             Requested size: 338.58632pt x 173.07895pt.
 
 
-c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:200: Package polyglossia Error: The current main monospace font,
+! Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1599,8 +1556,7 @@ If that doesn't work, type X <return> to quit.
 
 
 
-c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:200: Package polyglossia Error: The current main monospace font,
+! Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1619,8 +1575,7 @@ If that doesn't work, type X <return> to quit.
 
 
 
-c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:200: Package polyglossia Error: The current main monospace font,
+! Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1663,10 +1618,11 @@ File: block_B16.png Graphic file (type png)
 <use block_B16.png>
 Package luatex.def Info: block_B16.png  used on input line 236.
 (luatex.def)             Requested size: 232.17242pt x 111.05606pt.
+
+
 [6<./unroll_reversal_drt.png>]
 
-c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:262: Package polyglossia Error: The current main monospace font,
+! Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1685,8 +1641,7 @@ If that doesn't work, type X <return> to quit.
 
 
 
-c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:262: Package polyglossia Error: The current main monospace font,
+! Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1705,8 +1660,7 @@ If that doesn't work, type X <return> to quit.
 
 
 
-c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:262: Package polyglossia Error: The current main monospace font,
+! Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1725,8 +1679,7 @@ If that doesn't work, type X <return> to quit.
 
 
 
-c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:262: Package polyglossia Error: The current main monospace font,
+! Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1744,14 +1697,20 @@ Try typing <return> to proceed.
 If that doesn't work, type X <return> to quit.
 
 
+
+
 [7<./block_B1.png><./block_B2.png><./block_B4.png><./block_B8.png><./block_B16.p
-ng>] [8]
+ng>]
+
+[8]
 <rect_24x16.png, id=60, 409.53pt x 193.32225pt>
 File: rect_24x16.png Graphic file (type png)
 <use rect_24x16.png>
 Package luatex.def Info: rect_24x16.png  used on input line 333.
 (luatex.def)             Requested size: 290.22107pt x 137.00902pt.
- [9]
+
+
+[9]
 <rect_16x8.png, id=65, 405.01312pt x 201.00093pt>
 File: rect_16x8.png Graphic file (type png)
 <use rect_16x8.png>
@@ -1772,8 +1731,10 @@ File: rect_12x22.png Graphic file (type png)
 <use rect_12x22.png>
 Package luatex.def Info: rect_12x22.png  used on input line 368.
 (luatex.def)             Requested size: 232.17242pt x 96.17604pt.
- [10<./rect_24x16.png><./rect_16x8.png><./rect_8x16.png><./rect_24x11.png><./rec
-t_12x22.png>]
+
+
+[10<./rect_24x16.png><./rect_16x8.png><./rect_8x16.png><./rect_24x11.png><./rect
+_12x22.png>]
 Overfull \hbox (1.28978pt too wide) in paragraph at lines 418--419
  [][] 
  []
@@ -1785,18 +1746,17 @@ Overfull \hbox (5.0004pt too wide) in paragraph at lines 423--424
 Το Loop Unrolling
  []
 
+
+
 [11]
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstlang1.
-sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
-(C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc.s
-ty
-File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+(C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 )
 
-c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:428: Package polyglossia Error: The current main monospace font,
+! Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1824,10 +1784,11 @@ Overfull \hbox (15.02295pt too wide) in paragraph at lines 431--432
 η γί-νε-ται σε 858,490,254
  []
 
+
+
 [12]
 
-c:/Users/ΝΙΚΟΣ/Desktop/embedded/embedded-systems-NTUA/lab01/report/embedded
-_lab01.tex:438: Package polyglossia Error: The current main monospace font,
+! Package polyglossia Error: The current main monospace font,
 (polyglossia)                lmmono12-regular, does not contain the "Greek"
 (polyglossia)                script!
 (polyglossia)                Please define \greekfonttt with \newfontfamily
@@ -1850,59 +1811,75 @@ File: unrolling_factors_plot.png Graphic file (type png)
 <use unrolling_factors_plot.png>
 Package luatex.def Info: unrolling_factors_plot.png  used on input line 452.
 (luatex.def)             Requested size: 386.95897pt x 290.23143pt.
-<l1d_cache_size_plot.png, id=87, 462.528pt x 346.896pt>
+
+
+[13<./unrolling_factors_plot.png>]
+<l1d_cache_size_plot.png, id=91, 462.528pt x 346.896pt>
 File: l1d_cache_size_plot.png Graphic file (type png)
 <use l1d_cache_size_plot.png>
 Package luatex.def Info: l1d_cache_size_plot.png  used on input line 462.
 (luatex.def)             Requested size: 386.95897pt x 290.23143pt.
-[13<./unrolling_factors_plot.png>]
+
+Overfull \hbox (18.44958pt too wide) in paragraph at lines 467--468
+\TU/PalatinoLinotype(1)/m/n/12 ενώ για 16kB, 32kB και 64kB πέ-φτ
+ουν από-τομα και στα-θε-ρο-ποιού-νται κο-ντά 
+στους 43,000,000
+ []
+
+
 Overfull \hbox (22.14102pt too wide) in paragraph at lines 470--471
 []\TU/PalatinoLinotype(1)/m/n/12 Έχο-ντας με-λε-τή-σει την 
 επί-δραση συ-γκε-κρι-μέ-νων πα-ρα-μέ-τρων τη
 ς εφαρ-μο-γής (Unrolling
  []
 
-<pareto_frontier_plot.png, id=92, 622.7265pt x 394.5942pt>
+
+
+[14<./l1d_cache_size_plot.png>]
+<pareto_frontier_plot.png, id=96, 622.7265pt x 394.5942pt>
 File: pareto_frontier_plot.png Graphic file (type png)
 <use pareto_frontier_plot.png>
 Package luatex.def Info: pareto_frontier_plot.png  used on input line 483.
 (luatex.def)             Requested size: 386.95897pt x 245.1998pt.
-[14<./l1d_cache_size_plot.png>] [15<./pareto_frontier_plot.png>] [16]
-(./embedded_lab01.aux)
+
+
+[15<./pareto_frontier_plot.png>]
+
+[16] (./embedded_lab01.aux)
  ***********
-LaTeX2e <2025-11-01>
-L3 programming layer <2025-12-24>
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-04-14>
  ***********
 )
 
 Here is how much of LuaTeX's memory you used:
- 54562 strings out of 476081
- 305245,2848258 words of node,token memory allocated
+ 53722 strings out of 471925
+ 305239,2848258 words of node,token memory allocated
  505 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 54 glue_spec,
  8 attribute_list, 2 write nodes
-   avail lists: 2:3166,3:760,4:4540,5:4208,6:78,7:10550,8:27,9:12787,10:67,11:95
-3
- 76058 multiletter control sequences out of 65536+600000
+   avail lists: 1:2,2:3170,3:760,4:4540,5:4208,6:79,7:10546,8:25,9:12787,10:59,1
+1:955
+ 79370 multiletter control sequences out of 65536+600000
  122 fonts using 20568591 bytes
- 99i,11n,113p,1783b,2129s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/users/ΝΙΚΟΣ/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmo
-no10-regular.otf><c:/users/ΝΙΚΟΣ/appdata/local/programs/miktex/fonts/openty
-pe/public/lm/lmmonolt10-bold.otf><C:/WINDOWS/Fonts/palai.ttf><c:/users/ΝΙΚ
-ΟΣ/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmono12-regular.otf
-><C:/WINDOWS/Fonts/pala.ttf><C:/WINDOWS/Fonts/palab.ttf><C:/Users/ΝΙΚΟΣ/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/
-ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.p
-fb><C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmmi8.pfb><C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmr10.pfb><C:/Users/ΝΙΚΟΣ/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ΝΙΚΟΣ/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ΝΙΚΟΣ/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ΝΙ
-ΚΟΣ/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on embedded_lab01.pdf (16 pages, 815336 bytes).
+ 99i,11n,100p,1715b,2125s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/users/xarhs/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmono10-
+regular.otf><c:/users/xarhs/appdata/local/programs/miktex/fonts/opentype/public/
+lm/lmmonolt10-bold.otf><C:/WINDOWS/Fonts/palai.ttf><c:/users/xarhs/appdata/local
+/programs/miktex/fonts/opentype/public/lm/lmmono12-regular.otf><C:/WINDOWS/Fonts
+/pala.ttf><C:/WINDOWS/Fonts/palab.ttf><C:/Users/Xarhs/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Xarhs/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Xarhs/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Xarhs/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Xa
+rhs/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/U
+sers/Xarhs/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb
+><C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><C:/Users/Xarhs/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb>
+Output written on embedded_lab01.pdf (16 pages, 818019 bytes).
 
 PDF statistics: 167 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 1048576)
+ 0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
