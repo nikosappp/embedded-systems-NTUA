@@ -1,0 +1,9 @@
+# started on Mon Dec 14 20:55:19 2105
+
+
+ Performance counter stats for './bin/nms-vector-best-fit input=data/detrac_y5s_640.bin conf=0.05' (20 runs):
+
+           347,970      l2d_cache_refill:u                                            ( +-  0.05% )
+
+          0.396627 +- 0.000121 seconds time elapsed  ( +-  0.03% )
+

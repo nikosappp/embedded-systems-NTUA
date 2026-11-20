@@ -1,0 +1,9 @@
+# started on Mon Dec 14 20:55:15 2105
+
+
+ Performance counter stats for './bin/nms-roving_single_linked_list_no_sentinel-first-fit input=data/detrac_y5s_640.bin conf=0.05 runs=0' (20 runs):
+
+           160,624      l2d_cache_refill:u                                            ( +-  0.07% )
+
+         0.0427166 +- 0.0000221 seconds time elapsed  ( +-  0.05% )
+

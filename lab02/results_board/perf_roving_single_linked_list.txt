@@ -1,0 +1,9 @@
+# started on Mon Dec 14 19:40:36 2105
+
+
+ Performance counter stats for 'bin/nms-roving_single_linked_list-glibc input=data/detrac_y5s_640.bin conf=0.05' (20 runs):
+
+           346,394      l2d_cache_refill:u                                            ( +-  0.04% )
+
+         0.1476999 +- 0.0000895 seconds time elapsed  ( +-  0.06% )
+

@@ -1,0 +1,9 @@
+# started on Mon Dec 14 20:53:55 2105
+
+
+ Performance counter stats for './bin/nms-roving_double_linked_list-worst-fit input=data/detrac_y5s_640.bin conf=0.05 runs=0' (20 runs):
+
+           159,452      l2d_cache_refill:u                                            ( +-  0.06% )
+
+         0.0426528 +- 0.0000202 seconds time elapsed  ( +-  0.05% )
+

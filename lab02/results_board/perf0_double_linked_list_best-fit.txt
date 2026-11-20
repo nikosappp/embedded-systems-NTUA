@@ -1,0 +1,9 @@
+# started on Mon Dec 14 20:55:34 2105
+
+
+ Performance counter stats for './bin/nms-double_linked_list-best-fit input=data/detrac_y5s_640.bin conf=0.05 runs=0' (20 runs):
+
+           160,399      l2d_cache_refill:u                                            ( +-  0.06% )
+
+         0.0428024 +- 0.0000307 seconds time elapsed  ( +-  0.07% )
+

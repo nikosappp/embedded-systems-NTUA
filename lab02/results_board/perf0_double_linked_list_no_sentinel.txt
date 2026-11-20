@@ -1,0 +1,9 @@
+# started on Mon Dec 14 19:40:50 2105
+
+
+ Performance counter stats for 'bin/nms-double_linked_list_no_sentinel-glibc input=data/detrac_y5s_640.bin conf=0.05 runs=0' (20 runs):
+
+           160,018      l2d_cache_refill:u                                            ( +-  0.05% )
+
+         0.0427842 +- 0.0000253 seconds time elapsed  ( +-  0.06% )
+

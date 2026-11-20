@@ -1,0 +1,9 @@
+# started on Mon Dec 14 21:44:29 2105
+
+
+ Performance counter stats for './bin/nms-flag-vector-first-fit input=data/detrac_y5s_640.bin conf=0.05' (20 runs):
+
+           352,722      l2d_cache_refill:u                                            ( +-  0.07% )
+
+         0.1275529 +- 0.0000999 seconds time elapsed  ( +-  0.08% )
+

@@ -1,0 +1,177 @@
+--------------------------------------------------------------------------------
+Command:            ./bin/nms-flag-single_linked_list_no_sentinel-glibc input=data/detrac_y5s_640.bin conf=0.05
+Massif arguments:   --threshold=0 --peak-inaccuracy=0 --massif-out-file=results/m_flag_single_linked_list_no_sentinel.out
+ms_print arguments: --threshold=0 results/m_flag_single_linked_list_no_sentinel.out
+--------------------------------------------------------------------------------
+
+
+    KB
+835.6^                                 ##                                     
+     |             :@::::::     :::: ::# :                     ::: : ::    :::
+     |             :@: :: :  :::: : :::# :   ::: :  : ::       ::  : :   ::: :
+     |             :@: :: :::: :: : :::# ::::: : :::: : :      ::  : : ::: : :
+     |             :@: :: :: : :: : :::# ::: : :::: ::: ::::::::: :::: : : : :
+     |             :@: :: :: : :: : :::# ::: : :::: ::: ::: :: :: :::: : : : :
+     |             :@: :: :: : :: : :::# ::: : :::: ::: ::: :: :: :::: : : : :
+     |             :@: :: :: : :: : :::# ::: : :::: ::: ::: :: :: :::: : : : :
+     |             :@: :: :: : :: : :::# ::: : :::: ::: ::: :: :: :::: : : : :
+     |             :@: :: :: : :: : :::# ::: : :::: ::: ::: :: :: :::: : : : :
+     |             :@: :: :: : :: : :::# ::: : :::: ::: ::: :: :: :::: : : : :
+     |             :@: :: :: : :: : :::# ::: : :::: ::: ::: :: :: :::: : : : :
+     |             :@: :: :: : :: : :::# ::: : :::: ::: ::: :: :: :::: : : : :
+     |             :@: :: :: : :: : :::# ::: : :::: ::: ::: :: :: :::: : : : :
+     |             :@: :: :: : :: : :::# ::: : :::: ::: ::: :: :: :::: : : : :
+     |             :@: :: :: : :: : :::# ::: : :::: ::: ::: :: :: :::: : : : :
+     |             :@: :: :: : :: : :::# ::: : :::: ::: ::: :: :: :::: : : : :
+     |             :@: :: :: : :: : :::# ::: : :::: ::: ::: :: :: :::: : : : :
+     |             :@: :: :: : :: : :::# ::: : :::: ::: ::: :: :: :::: : : : :
+     | :::::::::::::@: :: :: : :: : :::# ::: : :::: ::: ::: :: :: :::: : : : :
+   0 +----------------------------------------------------------------------->Mi
+     0                                                                   72.37
+
+Number of snapshots: 50
+ Detailed snapshots: [9, 22 (peak)]
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  0              0                0                0             0            0
+  1      1,958,336           73,736           73,728             8            0
+  2      2,929,908           78,464           78,424            40            0
+  3      4,573,749           78,848           78,808            40            0
+  4      6,795,163           79,360           79,320            40            0
+  5      9,572,625           81,416           81,368            48            0
+  6      9,572,828           80,384           80,344            40            0
+  7     12,496,121           76,280           76,248            32            0
+  8     13,915,992          829,136          822,880         6,256            0
+  9     15,032,975          839,936          833,152         6,784            0
+99.19% (833,152B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->74.12% (622,592B) 0x1094CF: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+| 
+->15.89% (133,440B) 0x109F82: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+| ->15.89% (133,440B) 0x109568: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+|   
+->08.78% (73,728B) 0x490E38E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+| ->08.78% (73,728B) 0x400571E: call_init.part.0 (dl-init.c:74)
+|   ->08.78% (73,728B) 0x4005823: call_init (dl-init.c:120)
+|     ->08.78% (73,728B) 0x4005823: _dl_init (dl-init.c:121)
+|       ->08.78% (73,728B) 0x401F58F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+|         ->08.78% (73,728B) 0x2: ???
+|           ->08.78% (73,728B) 0x1FFEFFFD82: ???
+|             ->08.78% (73,728B) 0x1FFEFFFDB6: ???
+|               ->08.78% (73,728B) 0x1FFEFFFDD4: ???
+|                 
+->00.24% (2,048B) 0x10AEB5: void std::vector<float*, std::allocator<float*> >::_M_realloc_insert<float* const&>(__gnu_cxx::__normal_iterator<float**, std::vector<float*, std::allocator<float*> > >, float* const&) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+| ->00.24% (2,048B) 0x10AD44: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+|   ->00.24% (2,048B) 0x1094B3: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+|     
+->00.09% (768B) 0x10A35E: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+| ->00.09% (768B) 0x109568: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+|   
+->00.07% (576B) 0x10A965: std::_Rb_tree_iterator<std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBaseNoSentinel<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > > > std::_Rb_tree<float, std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBaseNoSentinel<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > >, std::_Select1st<std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBaseNoSentinel<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > > >, std::less<float>, std::allocator<std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBaseNoSentinel<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > > > >::_M_emplace_hint_unique<float&, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBaseNoSentinel<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > >(std::_Rb_tree_const_iterator<std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBaseNoSentinel<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > > >, float&, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBaseNoSentinel<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > >&&) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+| ->00.07% (576B) 0x10A08C: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+|   ->00.07% (576B) 0x109568: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+|     
+->00.00% (0B) 0x10A2B8: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+| ->00.00% (0B) 0x109568: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+|   
+->00.00% (0B) 0x4B88294: _IO_file_doallocate (filedoalloc.c:101)
+| ->00.00% (0B) 0x4B985E3: _IO_doallocbuf (genops.c:347)
+|   ->00.00% (0B) 0x4B9700B: _IO_file_xsgetn (fileops.c:1290)
+|     ->00.00% (0B) 0x4B8957A: fread (iofread.c:38)
+|       ->00.00% (0B) 0x10AC29: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+|         ->00.00% (0B) 0x1094B3: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+|           
+->00.00% (0B) 0x4B88F5E: __fopen_internal (iofopen.c:65)
+  ->00.00% (0B) 0x4B88F5E: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+    ->00.00% (0B) 0x10AC06: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+      ->00.00% (0B) 0x1094B3: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+        
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 10     16,830,255          842,128          835,232         6,896            0
+ 11     18,162,092          826,192          820,064         6,128            0
+ 12     19,830,164          824,264          818,240         6,024            0
+ 13     21,214,107          836,768          830,144         6,624            0
+ 14     22,975,787          752,920          750,272         2,648            0
+ 15     24,725,647          771,176          767,648         3,528            0
+ 16     26,720,933          808,096          802,816         5,280            0
+ 17     28,158,625          830,672          824,292         6,380            0
+ 18     29,634,477          818,368          812,608         5,760            0
+ 19     31,693,320          808,720          803,424         5,296            0
+ 20     33,126,568          828,352          822,112         6,240            0
+ 21     34,705,364          828,352          822,112         6,240            0
+ 22     35,757,285          855,608          848,128         7,480            0
+99.13% (848,128B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->72.77% (622,592B) 0x1094CF: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+| 
+->17.28% (147,840B) 0x109F82: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+| ->17.28% (147,840B) 0x109568: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+|   
+->08.62% (73,728B) 0x490E38E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+| ->08.62% (73,728B) 0x400571E: call_init.part.0 (dl-init.c:74)
+|   ->08.62% (73,728B) 0x4005823: call_init (dl-init.c:120)
+|     ->08.62% (73,728B) 0x4005823: _dl_init (dl-init.c:121)
+|       ->08.62% (73,728B) 0x401F58F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+|         ->08.62% (73,728B) 0x2: ???
+|           ->08.62% (73,728B) 0x1FFEFFFD82: ???
+|             ->08.62% (73,728B) 0x1FFEFFFDB6: ???
+|               ->08.62% (73,728B) 0x1FFEFFFDD4: ???
+|                 
+->00.24% (2,048B) 0x10AEB5: void std::vector<float*, std::allocator<float*> >::_M_realloc_insert<float* const&>(__gnu_cxx::__normal_iterator<float**, std::vector<float*, std::allocator<float*> > >, float* const&) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+| ->00.24% (2,048B) 0x10AD44: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+|   ->00.24% (2,048B) 0x1094B3: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+|     
+->00.18% (1,536B) 0x10A35E: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+| ->00.18% (1,536B) 0x109568: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+|   
+->00.04% (384B) 0x10A965: std::_Rb_tree_iterator<std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBaseNoSentinel<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > > > std::_Rb_tree<float, std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBaseNoSentinel<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > >, std::_Select1st<std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBaseNoSentinel<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > > >, std::less<float>, std::allocator<std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBaseNoSentinel<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > > > >::_M_emplace_hint_unique<float&, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBaseNoSentinel<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > >(std::_Rb_tree_const_iterator<std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBaseNoSentinel<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > > >, float&, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBaseNoSentinel<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > >&&) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+| ->00.04% (384B) 0x10A08C: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+|   ->00.04% (384B) 0x109568: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+|     
+->00.00% (0B) 0x10A2B8: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+| ->00.00% (0B) 0x109568: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+|   
+->00.00% (0B) 0x4B88294: _IO_file_doallocate (filedoalloc.c:101)
+| ->00.00% (0B) 0x4B985E3: _IO_doallocbuf (genops.c:347)
+|   ->00.00% (0B) 0x4B9700B: _IO_file_xsgetn (fileops.c:1290)
+|     ->00.00% (0B) 0x4B8957A: fread (iofread.c:38)
+|       ->00.00% (0B) 0x10AC29: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+|         ->00.00% (0B) 0x1094B3: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+|           
+->00.00% (0B) 0x4B88F5E: __fopen_internal (iofopen.c:65)
+  ->00.00% (0B) 0x4B88F5E: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+    ->00.00% (0B) 0x10AC06: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+      ->00.00% (0B) 0x1094B3: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-single_linked_list_no_sentinel-glibc)
+        
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 23     37,171,162          831,784          825,376         6,408            0
+ 24     38,940,556          740,824          738,752         2,072            0
+ 25     39,907,848          740,104          738,080         2,024            0
+ 26     41,668,136          775,792          772,064         3,728            0
+ 27     43,708,976          780,832          776,864         3,968            0
+ 28     44,816,126          703,840          703,552           288            0
+ 29     46,039,501          774,016          770,368         3,648            0
+ 30     47,383,614          747,424          745,056         2,368            0
+ 31     48,684,823          770,080          766,624         3,456            0
+ 32     50,096,236          698,800          698,752            48            0
+ 33     51,425,595          780,352          776,416         3,936            0
+ 34     52,858,249          762,808          759,712         3,096            0
+ 35     54,273,311          705,184          704,832           352            0
+ 36     55,748,862          715,048          714,208           840            0
+ 37     57,325,703          702,832          702,592           240            0
+ 38     58,952,214          716,440          715,552           888            0
+ 39     60,526,244          826,192          820,064         6,128            0
+ 40     61,494,823          835,480          828,896         6,584            0
+ 41     63,247,475          707,776          707,296           480            0
+ 42     64,367,251          831,304          824,928         6,376            0
+ 43     66,130,686          700,048          699,936           112            0
+ 44     67,077,693          850,384          843,104         7,280            0
+ 45     69,061,221          728,752          727,264         1,488            0
+ 46     71,089,357          786,280          782,048         4,232            0
+ 47     73,144,094          825,952          819,840         6,112            0
+ 48     75,241,703          839,072          832,304         6,768            0
+ 49     75,888,389                0                0             0            0

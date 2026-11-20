@@ -1,0 +1,9 @@
+# started on Mon Dec 14 20:54:36 2105
+
+
+ Performance counter stats for './bin/nms-double_linked_list_no_sentinel-arena input=data/detrac_y5s_640.bin conf=0.05 runs=0' (20 runs):
+
+           160,523      l2d_cache_refill:u                                            ( +-  0.06% )
+
+         0.0427864 +- 0.0000258 seconds time elapsed  ( +-  0.06% )
+

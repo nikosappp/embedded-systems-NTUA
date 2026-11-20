@@ -1,0 +1,9 @@
+# started on Mon Dec 14 20:54:39 2105
+
+
+ Performance counter stats for './bin/nms-roving_single_linked_list_no_sentinel-arena input=data/detrac_y5s_640.bin conf=0.05 runs=0' (20 runs):
+
+           161,246      l2d_cache_refill:u                                            ( +-  0.08% )
+
+         0.0426980 +- 0.0000235 seconds time elapsed  ( +-  0.06% )
+

@@ -1,0 +1,9 @@
+# started on Mon Dec 14 21:44:00 2105
+
+
+ Performance counter stats for './bin/nms-flag-vector-arena input=data/detrac_y5s_640.bin conf=0.05' (20 runs):
+
+           352,984      l2d_cache_refill:u                                            ( +-  0.05% )
+
+         0.1278144 +- 0.0000883 seconds time elapsed  ( +-  0.07% )
+

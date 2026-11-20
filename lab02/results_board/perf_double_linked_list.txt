@@ -1,0 +1,9 @@
+# started on Mon Dec 14 19:40:33 2105
+
+
+ Performance counter stats for 'bin/nms-double_linked_list-glibc input=data/detrac_y5s_640.bin conf=0.05' (20 runs):
+
+           347,025      l2d_cache_refill:u                                            ( +-  0.04% )
+
+         0.1314618 +- 0.0000808 seconds time elapsed  ( +-  0.06% )
+

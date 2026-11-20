@@ -1,0 +1,9 @@
+# started on Mon Dec 14 21:44:12 2105
+
+
+ Performance counter stats for './bin/nms-flag-roving_single_linked_list-arena input=data/detrac_y5s_640.bin conf=0.05 runs=0' (20 runs):
+
+           160,134      l2d_cache_refill:u                                            ( +-  0.09% )
+
+         0.0427552 +- 0.0000214 seconds time elapsed  ( +-  0.05% )
+

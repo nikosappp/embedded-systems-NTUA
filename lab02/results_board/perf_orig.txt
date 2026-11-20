@@ -1,0 +1,9 @@
+# started on Mon Dec 14 19:40:11 2105
+
+
+ Performance counter stats for 'bin/nms-orig input=data/detrac_y5s_640.bin conf=0.05' (20 runs):
+
+           346,165      l2d_cache_refill:u                                            ( +-  0.04% )
+
+         0.3919125 +- 0.0000395 seconds time elapsed  ( +-  0.01% )
+

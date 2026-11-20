@@ -1,0 +1,9 @@
+# started on Mon Dec 14 21:42:59 2105
+
+
+ Performance counter stats for './bin/nms-flag-vector-glibc input=data/detrac_y5s_640.bin conf=0.05 runs=0' (20 runs):
+
+           159,879      l2d_cache_refill:u                                            ( +-  0.05% )
+
+         0.0428398 +- 0.0000226 seconds time elapsed  ( +-  0.05% )
+

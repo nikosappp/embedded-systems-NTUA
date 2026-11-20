@@ -1,0 +1,9 @@
+# started on Mon Dec 14 21:43:19 2105
+
+
+ Performance counter stats for './bin/nms-flag-double_linked_list_no_sentinel-glibc input=data/detrac_y5s_640.bin conf=0.05' (20 runs):
+
+           345,020      l2d_cache_refill:u                                            ( +-  0.03% )
+
+         0.1368942 +- 0.0000761 seconds time elapsed  ( +-  0.06% )
+

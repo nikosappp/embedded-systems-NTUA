@@ -1,0 +1,9 @@
+# started on Mon Dec 14 21:43:54 2105
+
+
+ Performance counter stats for './bin/nms-flag-roving_single_linked_list_no_sentinel-worst-fit input=data/detrac_y5s_640.bin conf=0.05' (20 runs):
+
+           345,867      l2d_cache_refill:u                                            ( +-  0.02% )
+
+         0.1128516 +- 0.0000229 seconds time elapsed  ( +-  0.02% )
+

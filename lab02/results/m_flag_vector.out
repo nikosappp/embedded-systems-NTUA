@@ -1,0 +1,663 @@
+desc: --threshold=0 --peak-inaccuracy=0 --massif-out-file=results/m_flag_vector.out
+cmd: ./bin/nms-flag-vector-glibc input=data/detrac_y5s_640.bin conf=0.05
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=1962998
+mem_heap_B=73728
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=4578411
+mem_heap_B=78808
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=6799825
+mem_heap_B=79320
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=9577287
+mem_heap_B=81368
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=9577490
+mem_heap_B=80344
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=12500783
+mem_heap_B=76248
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=13642405
+mem_heap_B=861576
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=15610150
+mem_heap_B=912048
+mem_heap_extra_B=224
+mem_stacks_B=0
+heap_tree=detailed
+n10: 912048 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 622592 0x10954F: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 213104 0x10C735: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+  n0: 213104 0x1095E8: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 73728 0x490E38E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n1: 73728 0x401F58F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 73728 0x2: ???
+       n1: 73728 0x1FFEFFFDB2: ???
+        n1: 73728 0x1FFEFFFDCE: ???
+         n0: 73728 0x1FFEFFFDEC: ???
+ n1: 2048 0x10F145: void std::vector<float*, std::allocator<float*> >::_M_realloc_insert<float* const&>(__gnu_cxx::__normal_iterator<float**, std::vector<float*, std::allocator<float*> > >, float* const&) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+  n1: 2048 0x10EFD4: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+   n0: 2048 0x109533: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 576 0x10ECB7: std::_Rb_tree_iterator<std::pair<float const, DDTLibrary::Vector<Detection, ddtr::malloc_allocator> > > std::_Rb_tree<float, std::pair<float const, DDTLibrary::Vector<Detection, ddtr::malloc_allocator> >, std::_Select1st<std::pair<float const, DDTLibrary::Vector<Detection, ddtr::malloc_allocator> > >, std::less<float>, std::allocator<std::pair<float const, DDTLibrary::Vector<Detection, ddtr::malloc_allocator> > > >::_M_emplace_hint_unique<float&, DDTLibrary::Vector<Detection, ddtr::malloc_allocator> >(std::_Rb_tree_const_iterator<std::pair<float const, DDTLibrary::Vector<Detection, ddtr::malloc_allocator> > >, float&, DDTLibrary::Vector<Detection, ddtr::malloc_allocator>&&) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+  n1: 576 0x10AD4D: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+   n0: 576 0x1095E8: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 0 0x10ADE1: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+  n0: 0 0x1095E8: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 0 0x10BDCC: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+  n0: 0 0x1095E8: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 0 0x10BED7: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+  n0: 0 0x1095E8: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 0 0x4B88294: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 0 0x4B985E3: _IO_doallocbuf (genops.c:347)
+   n1: 0 0x4B9700B: _IO_file_xsgetn (fileops.c:1290)
+    n1: 0 0x4B8957A: fread (iofread.c:38)
+     n1: 0 0x10EEB9: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+      n0: 0 0x109533: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 0 0x4B88F5E: __fopen_internal (iofopen.c:65)
+  n1: 0 0x4B88F5E: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n1: 0 0x10EE96: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+    n0: 0 0x109533: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+#-----------
+snapshot=9
+#-----------
+time=16851987
+mem_heap_B=870696
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=19397634
+mem_heap_B=825632
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=21346035
+mem_heap_B=826408
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=22720904
+mem_heap_B=864992
+mem_heap_extra_B=176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=24462586
+mem_heap_B=902584
+mem_heap_extra_B=232
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=26775228
+mem_heap_B=762872
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=28343668
+mem_heap_B=760936
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=30461038
+mem_heap_B=994360
+mem_heap_extra_B=200
+mem_stacks_B=0
+heap_tree=peak
+n10: 994360 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 622592 0x10954F: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 295488 0x10C735: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+  n0: 295488 0x1095E8: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 73728 0x490E38E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n1: 73728 0x401F58F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 73728 0x2: ???
+       n1: 73728 0x1FFEFFFDB2: ???
+        n1: 73728 0x1FFEFFFDCE: ???
+         n0: 73728 0x1FFEFFFDEC: ???
+ n1: 2048 0x10F145: void std::vector<float*, std::allocator<float*> >::_M_realloc_insert<float* const&>(__gnu_cxx::__normal_iterator<float**, std::vector<float*, std::allocator<float*> > >, float* const&) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+  n1: 2048 0x10EFD4: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+   n0: 2048 0x109533: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 504 0x10ECB7: std::_Rb_tree_iterator<std::pair<float const, DDTLibrary::Vector<Detection, ddtr::malloc_allocator> > > std::_Rb_tree<float, std::pair<float const, DDTLibrary::Vector<Detection, ddtr::malloc_allocator> >, std::_Select1st<std::pair<float const, DDTLibrary::Vector<Detection, ddtr::malloc_allocator> > >, std::less<float>, std::allocator<std::pair<float const, DDTLibrary::Vector<Detection, ddtr::malloc_allocator> > > >::_M_emplace_hint_unique<float&, DDTLibrary::Vector<Detection, ddtr::malloc_allocator> >(std::_Rb_tree_const_iterator<std::pair<float const, DDTLibrary::Vector<Detection, ddtr::malloc_allocator> > >, float&, DDTLibrary::Vector<Detection, ddtr::malloc_allocator>&&) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+  n1: 504 0x10AD4D: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+   n0: 504 0x1095E8: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 0 0x10ADE1: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+  n0: 0 0x1095E8: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 0 0x10BDCC: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+  n0: 0 0x1095E8: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 0 0x10BED7: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+  n0: 0 0x1095E8: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 0 0x4B88294: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 0 0x4B985E3: _IO_doallocbuf (genops.c:347)
+   n1: 0 0x4B9700B: _IO_file_xsgetn (fileops.c:1290)
+    n1: 0 0x4B8957A: fread (iofread.c:38)
+     n1: 0 0x10EEB9: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+      n0: 0 0x109533: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 0 0x4B88F5E: __fopen_internal (iofopen.c:65)
+  n1: 0 0x4B88F5E: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n1: 0 0x10EE96: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+    n0: 0 0x109533: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+#-----------
+snapshot=17
+#-----------
+time=32250877
+mem_heap_B=906712
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=33937347
+mem_heap_B=722440
+mem_heap_extra_B=136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=35606914
+mem_heap_B=722288
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=38234242
+mem_heap_B=723048
+mem_heap_extra_B=168
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=40150408
+mem_heap_B=704056
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=42347346
+mem_heap_B=796008
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=44197318
+mem_heap_B=724192
+mem_heap_extra_B=120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=45320029
+mem_heap_B=698896
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=47372439
+mem_heap_B=737880
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=49878959
+mem_heap_B=727000
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=52466817
+mem_heap_B=723584
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=53993211
+mem_heap_B=808096
+mem_heap_extra_B=120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=55175932
+mem_heap_B=761888
+mem_heap_extra_B=120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=56664822
+mem_heap_B=698440
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=58289804
+mem_heap_B=788956
+mem_heap_extra_B=156
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=59574840
+mem_heap_B=786160
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=60932276
+mem_heap_B=777600
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=62346446
+mem_heap_B=786064
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=64171409
+mem_heap_B=703528
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=66020964
+mem_heap_B=752160
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=67837200
+mem_heap_B=710672
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=69786335
+mem_heap_B=708168
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=71766490
+mem_heap_B=722856
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=73099788
+mem_heap_B=883500
+mem_heap_extra_B=156
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=75234621
+mem_heap_B=702768
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=76387652
+mem_heap_B=802160
+mem_heap_extra_B=168
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=78671479
+mem_heap_B=718576
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=80791154
+mem_heap_B=702464
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=83319973
+mem_heap_B=710440
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=85788301
+mem_heap_B=799200
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=88141786
+mem_heap_B=705736
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=90443218
+mem_heap_B=722296
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=90960838
+mem_heap_B=899688
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=90961062
+mem_heap_B=899176
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=91552382
+mem_heap_B=898152
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=91552657
+mem_heap_B=898152
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=91552882
+mem_heap_B=898158
+mem_heap_extra_B=186
+mem_stacks_B=0
+heap_tree=detailed
+n10: 898158 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 622592 0x10954F: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 199424 0x10C735: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+  n0: 199424 0x1095E8: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 73728 0x490E38E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n1: 73728 0x401F58F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 73728 0x2: ???
+       n1: 73728 0x1FFEFFFDB2: ???
+        n1: 73728 0x1FFEFFFDCE: ???
+         n0: 73728 0x1FFEFFFDEC: ???
+ n1: 2048 0x10F145: void std::vector<float*, std::allocator<float*> >::_M_realloc_insert<float* const&>(__gnu_cxx::__normal_iterator<float**, std::vector<float*, std::allocator<float*> > >, float* const&) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+  n1: 2048 0x10EFD4: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+   n0: 2048 0x109533: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 360 0x10ECB7: std::_Rb_tree_iterator<std::pair<float const, DDTLibrary::Vector<Detection, ddtr::malloc_allocator> > > std::_Rb_tree<float, std::pair<float const, DDTLibrary::Vector<Detection, ddtr::malloc_allocator> >, std::_Select1st<std::pair<float const, DDTLibrary::Vector<Detection, ddtr::malloc_allocator> > >, std::less<float>, std::allocator<std::pair<float const, DDTLibrary::Vector<Detection, ddtr::malloc_allocator> > > >::_M_emplace_hint_unique<float&, DDTLibrary::Vector<Detection, ddtr::malloc_allocator> >(std::_Rb_tree_const_iterator<std::pair<float const, DDTLibrary::Vector<Detection, ddtr::malloc_allocator> > >, float&, DDTLibrary::Vector<Detection, ddtr::malloc_allocator>&&) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+  n1: 360 0x10AD4D: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+   n0: 360 0x1095E8: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 6 0x10BED7: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+  n0: 6 0x1095E8: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 0 0x10ADE1: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+  n0: 0 0x1095E8: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 0 0x10BDCC: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+  n0: 0 0x1095E8: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 0 0x4B88294: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 0 0x4B985E3: _IO_doallocbuf (genops.c:347)
+   n1: 0 0x4B9700B: _IO_file_xsgetn (fileops.c:1290)
+    n1: 0 0x4B8957A: fread (iofread.c:38)
+     n1: 0 0x10EEB9: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+      n0: 0 0x109533: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 0 0x4B88F5E: __fopen_internal (iofopen.c:65)
+  n1: 0 0x4B88F5E: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n1: 0 0x10EE96: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+    n0: 0 0x109533: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+#-----------
+snapshot=54
+#-----------
+time=91553469
+mem_heap_B=898152
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=91554038
+mem_heap_B=898152
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=91554263
+mem_heap_B=898158
+mem_heap_extra_B=186
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=91554898
+mem_heap_B=898152
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=91555124
+mem_heap_B=895576
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=91555348
+mem_heap_B=698440
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=91557889
+mem_heap_B=702464
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=91558216
+mem_heap_B=79872
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=91571497
+mem_heap_B=4096
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=91572677
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n10: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 0 0x10954F: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 0 0x10ADE1: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+  n0: 0 0x1095E8: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 0 0x10BDCC: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+  n0: 0 0x1095E8: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 0 0x10BED7: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+  n0: 0 0x1095E8: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 0 0x10C735: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+  n0: 0 0x1095E8: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 0 0x10ECB7: std::_Rb_tree_iterator<std::pair<float const, DDTLibrary::Vector<Detection, ddtr::malloc_allocator> > > std::_Rb_tree<float, std::pair<float const, DDTLibrary::Vector<Detection, ddtr::malloc_allocator> >, std::_Select1st<std::pair<float const, DDTLibrary::Vector<Detection, ddtr::malloc_allocator> > >, std::less<float>, std::allocator<std::pair<float const, DDTLibrary::Vector<Detection, ddtr::malloc_allocator> > > >::_M_emplace_hint_unique<float&, DDTLibrary::Vector<Detection, ddtr::malloc_allocator> >(std::_Rb_tree_const_iterator<std::pair<float const, DDTLibrary::Vector<Detection, ddtr::malloc_allocator> > >, float&, DDTLibrary::Vector<Detection, ddtr::malloc_allocator>&&) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+  n1: 0 0x10AD4D: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+   n0: 0 0x1095E8: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 0 0x10F145: void std::vector<float*, std::allocator<float*> >::_M_realloc_insert<float* const&>(__gnu_cxx::__normal_iterator<float**, std::vector<float*, std::allocator<float*> > >, float* const&) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+  n1: 0 0x10EFD4: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+   n0: 0 0x109533: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 0 0x490E38E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 0 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 0 0x4005823: call_init (dl-init.c:120)
+    n1: 0 0x4005823: _dl_init (dl-init.c:121)
+     n1: 0 0x401F58F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 0 0x2: ???
+       n1: 0 0x1FFEFFFDB2: ???
+        n1: 0 0x1FFEFFFDCE: ???
+         n0: 0 0x1FFEFFFDEC: ???
+ n1: 0 0x4B88294: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 0 0x4B985E3: _IO_doallocbuf (genops.c:347)
+   n1: 0 0x4B9604F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:747)
+    n1: 0 0x4B96B6E: _IO_new_file_xsputn (fileops.c:1246)
+     n1: 0 0x4B96B6E: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1199)
+      n1: 0 0x4B63CC8: __printf_buffer_flush_to_file (printf_buffer_to_file.c:59)
+       n1: 0 0x4B63CC8: __printf_buffer_to_file_done (printf_buffer_to_file.c:120)
+        n1: 0 0x4B6E742: __vfprintf_internal (vfprintf-internal.c:1545)
+         n1: 0 0x4C3AC5C: __printf_chk (printf_chk.c:33)
+          n0: 0 0x109620: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+   n1: 0 0x4B9700B: _IO_file_xsgetn (fileops.c:1290)
+    n1: 0 0x4B8957A: fread (iofread.c:38)
+     n1: 0 0x10EEB9: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+      n0: 0 0x109533: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+ n1: 0 0x4B88F5E: __fopen_internal (iofopen.c:65)
+  n1: 0 0x4B88F5E: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n1: 0 0x10EE96: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)
+    n0: 0 0x109533: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-vector-glibc)

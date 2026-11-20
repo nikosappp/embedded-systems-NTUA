@@ -1,0 +1,9 @@
+# started on Mon Dec 14 21:44:41 2105
+
+
+ Performance counter stats for './bin/nms-flag-roving_single_linked_list-first-fit input=data/detrac_y5s_640.bin conf=0.05 runs=0' (20 runs):
+
+           160,161      l2d_cache_refill:u                                            ( +-  0.06% )
+
+         0.0428329 +- 0.0000860 seconds time elapsed  ( +-  0.20% )
+

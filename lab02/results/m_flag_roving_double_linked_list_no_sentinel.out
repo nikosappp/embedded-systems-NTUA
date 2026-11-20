@@ -1,0 +1,606 @@
+desc: --threshold=0 --peak-inaccuracy=0 --massif-out-file=results/m_flag_roving_double_linked_list_no_sentinel.out
+cmd: ./bin/nms-flag-roving_double_linked_list_no_sentinel-glibc input=data/detrac_y5s_640.bin conf=0.05
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=1958331
+mem_heap_B=73728
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=2929903
+mem_heap_B=78424
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=4573744
+mem_heap_B=78808
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=6795158
+mem_heap_B=79320
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=9572620
+mem_heap_B=81368
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=9572823
+mem_heap_B=80344
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=12496116
+mem_heap_B=76248
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=14407138
+mem_heap_B=832408
+mem_heap_extra_B=12792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=16072684
+mem_heap_B=829144
+mem_heap_extra_B=12456
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=17225899
+mem_heap_B=827280
+mem_heap_extra_B=12320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=19531605
+mem_heap_B=830736
+mem_heap_extra_B=12608
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=20983838
+mem_heap_B=829816
+mem_heap_extra_B=12552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=22452809
+mem_heap_B=824688
+mem_heap_extra_B=11984
+mem_stacks_B=0
+heap_tree=detailed
+n9: 824688 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 622592 0x1094BF: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+ n1: 124656 0x109FA1: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+  n0: 124656 0x109558: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+ n1: 73728 0x490E38E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n1: 73728 0x401F58F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 73728 0x2: ???
+       n1: 73728 0x1FFEFFFD72: ???
+        n1: 73728 0x1FFEFFFDAD: ???
+         n0: 73728 0x1FFEFFFDCB: ???
+ n1: 2048 0x10AF45: void std::vector<float*, std::allocator<float*> >::_M_realloc_insert<float* const&>(__gnu_cxx::__normal_iterator<float**, std::vector<float*, std::allocator<float*> > >, float* const&) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+  n1: 2048 0x10ADD4: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+   n0: 2048 0x1094A3: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+ n1: 1024 0x10A3CC: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+  n0: 1024 0x109558: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+ n1: 640 0x10A9D5: std::_Rb_tree_iterator<std::pair<float const, DDTLibrary::List<DDTLibrary::dllRovingExtension<DDTLibrary::dll<DDTLibrary::listBaseNoSentinel<DDTLibrary::dllListElement<Detection, ddtr::malloc_allocator> > > > > > > std::_Rb_tree<float, std::pair<float const, DDTLibrary::List<DDTLibrary::dllRovingExtension<DDTLibrary::dll<DDTLibrary::listBaseNoSentinel<DDTLibrary::dllListElement<Detection, ddtr::malloc_allocator> > > > > >, std::_Select1st<std::pair<float const, DDTLibrary::List<DDTLibrary::dllRovingExtension<DDTLibrary::dll<DDTLibrary::listBaseNoSentinel<DDTLibrary::dllListElement<Detection, ddtr::malloc_allocator> > > > > > >, std::less<float>, std::allocator<std::pair<float const, DDTLibrary::List<DDTLibrary::dllRovingExtension<DDTLibrary::dll<DDTLibrary::listBaseNoSentinel<DDTLibrary::dllListElement<Detection, ddtr::malloc_allocator> > > > > > > >::_M_emplace_hint_unique<float&, DDTLibrary::List<DDTLibrary::dllRovingExtension<DDTLibrary::dll<DDTLibrary::listBaseNoSentinel<DDTLibrary::dllListElement<Detection, ddtr::malloc_allocator> > > > > >(std::_Rb_tree_const_iterator<std::pair<float const, DDTLibrary::List<DDTLibrary::dllRovingExtension<DDTLibrary::dll<DDTLibrary::listBaseNoSentinel<DDTLibrary::dllListElement<Detection, ddtr::malloc_allocator> > > > > > >, float&, DDTLibrary::List<DDTLibrary::dllRovingExtension<DDTLibrary::dll<DDTLibrary::listBaseNoSentinel<DDTLibrary::dllListElement<Detection, ddtr::malloc_allocator> > > > >&&) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+  n1: 640 0x10A0C4: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+   n0: 640 0x109558: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+ n1: 0 0x10A326: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+  n0: 0 0x109558: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+ n1: 0 0x4B88294: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 0 0x4B985E3: _IO_doallocbuf (genops.c:347)
+   n1: 0 0x4B9700B: _IO_file_xsgetn (fileops.c:1290)
+    n1: 0 0x4B8957A: fread (iofread.c:38)
+     n1: 0 0x10ACB9: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+      n0: 0 0x1094A3: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+ n1: 0 0x4B88F5E: __fopen_internal (iofopen.c:65)
+  n1: 0 0x4B88F5E: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n1: 0 0x10AC96: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+    n0: 0 0x1094A3: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+#-----------
+snapshot=14
+#-----------
+time=23527736
+mem_heap_B=752944
+mem_heap_extra_B=5224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=25115273
+mem_heap_B=774449
+mem_heap_extra_B=7295
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=26580071
+mem_heap_B=703568
+mem_heap_extra_B=520
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=27524474
+mem_heap_B=834168
+mem_heap_extra_B=12976
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=29755822
+mem_heap_B=834592
+mem_heap_extra_B=13000
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=31177979
+mem_heap_B=739088
+mem_heap_extra_B=3904
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=32666122
+mem_heap_B=742368
+mem_heap_extra_B=4232
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=34210248
+mem_heap_B=812504
+mem_heap_extra_B=10896
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=35879740
+mem_heap_B=827704
+mem_heap_extra_B=12344
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=37011586
+mem_heap_B=855616
+mem_heap_extra_B=14872
+mem_stacks_B=0
+heap_tree=peak
+n9: 855616 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 622592 0x1094BF: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+ n1: 155232 0x109FA1: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+  n0: 155232 0x109558: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+ n1: 73728 0x490E38E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n1: 73728 0x401F58F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 73728 0x2: ???
+       n1: 73728 0x1FFEFFFD72: ???
+        n1: 73728 0x1FFEFFFDAD: ???
+         n0: 73728 0x1FFEFFFDCB: ???
+ n1: 2048 0x10AF45: void std::vector<float*, std::allocator<float*> >::_M_realloc_insert<float* const&>(__gnu_cxx::__normal_iterator<float**, std::vector<float*, std::allocator<float*> > >, float* const&) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+  n1: 2048 0x10ADD4: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+   n0: 2048 0x1094A3: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+ n1: 1536 0x10A3CC: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+  n0: 1536 0x109558: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+ n1: 480 0x10A9D5: std::_Rb_tree_iterator<std::pair<float const, DDTLibrary::List<DDTLibrary::dllRovingExtension<DDTLibrary::dll<DDTLibrary::listBaseNoSentinel<DDTLibrary::dllListElement<Detection, ddtr::malloc_allocator> > > > > > > std::_Rb_tree<float, std::pair<float const, DDTLibrary::List<DDTLibrary::dllRovingExtension<DDTLibrary::dll<DDTLibrary::listBaseNoSentinel<DDTLibrary::dllListElement<Detection, ddtr::malloc_allocator> > > > > >, std::_Select1st<std::pair<float const, DDTLibrary::List<DDTLibrary::dllRovingExtension<DDTLibrary::dll<DDTLibrary::listBaseNoSentinel<DDTLibrary::dllListElement<Detection, ddtr::malloc_allocator> > > > > > >, std::less<float>, std::allocator<std::pair<float const, DDTLibrary::List<DDTLibrary::dllRovingExtension<DDTLibrary::dll<DDTLibrary::listBaseNoSentinel<DDTLibrary::dllListElement<Detection, ddtr::malloc_allocator> > > > > > > >::_M_emplace_hint_unique<float&, DDTLibrary::List<DDTLibrary::dllRovingExtension<DDTLibrary::dll<DDTLibrary::listBaseNoSentinel<DDTLibrary::dllListElement<Detection, ddtr::malloc_allocator> > > > > >(std::_Rb_tree_const_iterator<std::pair<float const, DDTLibrary::List<DDTLibrary::dllRovingExtension<DDTLibrary::dll<DDTLibrary::listBaseNoSentinel<DDTLibrary::dllListElement<Detection, ddtr::malloc_allocator> > > > > > >, float&, DDTLibrary::List<DDTLibrary::dllRovingExtension<DDTLibrary::dll<DDTLibrary::listBaseNoSentinel<DDTLibrary::dllListElement<Detection, ddtr::malloc_allocator> > > > >&&) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+  n1: 480 0x10A0C4: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+   n0: 480 0x109558: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+ n1: 0 0x10A326: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+  n0: 0 0x109558: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+ n1: 0 0x4B88294: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 0 0x4B985E3: _IO_doallocbuf (genops.c:347)
+   n1: 0 0x4B9700B: _IO_file_xsgetn (fileops.c:1290)
+    n1: 0 0x4B8957A: fread (iofread.c:38)
+     n1: 0 0x10ACB9: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+      n0: 0 0x1094A3: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+ n1: 0 0x4B88F5E: __fopen_internal (iofopen.c:65)
+  n1: 0 0x4B88F5E: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n1: 0 0x10AC96: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+    n0: 0 0x1094A3: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+#-----------
+snapshot=24
+#-----------
+time=38461340
+mem_heap_B=827112
+mem_heap_extra_B=12288
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=40213252
+mem_heap_B=738328
+mem_heap_extra_B=3832
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=42266125
+mem_heap_B=732040
+mem_heap_extra_B=3232
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=44252997
+mem_heap_B=766728
+mem_heap_extra_B=6552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=45384207
+mem_heap_B=779664
+mem_heap_extra_B=7768
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=46607769
+mem_heap_B=764880
+mem_heap_extra_B=6376
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=47846662
+mem_heap_B=780584
+mem_heap_extra_B=7856
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=49262767
+mem_heap_B=749768
+mem_heap_extra_B=4936
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=50633397
+mem_heap_B=777480
+mem_heap_extra_B=7560
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=51757522
+mem_heap_B=761360
+mem_heap_extra_B=6040
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=53125017
+mem_heap_B=748088
+mem_heap_extra_B=4760
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=54523419
+mem_heap_B=771944
+mem_heap_extra_B=7032
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=55998092
+mem_heap_B=703144
+mem_heap_extra_B=480
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=57506716
+mem_heap_B=732288
+mem_heap_extra_B=3256
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=59055424
+mem_heap_B=713904
+mem_heap_extra_B=1520
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=60670656
+mem_heap_B=707856
+mem_heap_extra_B=944
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=62286197
+mem_heap_B=717176
+mem_heap_extra_B=1816
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=64445246
+mem_heap_B=840072
+mem_heap_extra_B=13520
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=66174143
+mem_heap_B=847360
+mem_heap_extra_B=14216
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=68154172
+mem_heap_B=795960
+mem_heap_extra_B=9336
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=70041383
+mem_heap_B=845520
+mem_heap_extra_B=14040
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=72193132
+mem_heap_B=818304
+mem_heap_extra_B=11448
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=74279540
+mem_heap_B=841400
+mem_heap_extra_B=13648
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=76434130
+mem_heap_B=845608
+mem_heap_extra_B=14064
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=78363168
+mem_heap_B=835856
+mem_heap_extra_B=13136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=79221850
+mem_heap_B=708696
+mem_heap_extra_B=1008
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=79222081
+mem_heap_B=707520
+mem_heap_extra_B=896
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=79222312
+mem_heap_B=706344
+mem_heap_extra_B=784
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=79222543
+mem_heap_B=705168
+mem_heap_extra_B=672
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=79222774
+mem_heap_B=703992
+mem_heap_extra_B=560
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=79223005
+mem_heap_B=702816
+mem_heap_extra_B=448
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=79223236
+mem_heap_B=701640
+mem_heap_extra_B=336
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=79223467
+mem_heap_B=700464
+mem_heap_extra_B=224
+mem_stacks_B=0
+heap_tree=detailed
+n9: 700464 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 622592 0x1094BF: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+ n1: 73728 0x490E38E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+  n1: 73728 0x400571E: call_init.part.0 (dl-init.c:74)
+   n1: 73728 0x4005823: call_init (dl-init.c:120)
+    n1: 73728 0x4005823: _dl_init (dl-init.c:121)
+     n1: 73728 0x401F58F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+      n1: 73728 0x2: ???
+       n1: 73728 0x1FFEFFFD72: ???
+        n1: 73728 0x1FFEFFFDAD: ???
+         n0: 73728 0x1FFEFFFDCB: ???
+ n1: 2048 0x10AF45: void std::vector<float*, std::allocator<float*> >::_M_realloc_insert<float* const&>(__gnu_cxx::__normal_iterator<float**, std::vector<float*, std::allocator<float*> > >, float* const&) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+  n1: 2048 0x10ADD4: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+   n0: 2048 0x1094A3: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+ n1: 2016 0x109FA1: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+  n0: 2016 0x109558: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+ n1: 80 0x10A9D5: std::_Rb_tree_iterator<std::pair<float const, DDTLibrary::List<DDTLibrary::dllRovingExtension<DDTLibrary::dll<DDTLibrary::listBaseNoSentinel<DDTLibrary::dllListElement<Detection, ddtr::malloc_allocator> > > > > > > std::_Rb_tree<float, std::pair<float const, DDTLibrary::List<DDTLibrary::dllRovingExtension<DDTLibrary::dll<DDTLibrary::listBaseNoSentinel<DDTLibrary::dllListElement<Detection, ddtr::malloc_allocator> > > > > >, std::_Select1st<std::pair<float const, DDTLibrary::List<DDTLibrary::dllRovingExtension<DDTLibrary::dll<DDTLibrary::listBaseNoSentinel<DDTLibrary::dllListElement<Detection, ddtr::malloc_allocator> > > > > > >, std::less<float>, std::allocator<std::pair<float const, DDTLibrary::List<DDTLibrary::dllRovingExtension<DDTLibrary::dll<DDTLibrary::listBaseNoSentinel<DDTLibrary::dllListElement<Detection, ddtr::malloc_allocator> > > > > > > >::_M_emplace_hint_unique<float&, DDTLibrary::List<DDTLibrary::dllRovingExtension<DDTLibrary::dll<DDTLibrary::listBaseNoSentinel<DDTLibrary::dllListElement<Detection, ddtr::malloc_allocator> > > > > >(std::_Rb_tree_const_iterator<std::pair<float const, DDTLibrary::List<DDTLibrary::dllRovingExtension<DDTLibrary::dll<DDTLibrary::listBaseNoSentinel<DDTLibrary::dllListElement<Detection, ddtr::malloc_allocator> > > > > > >, float&, DDTLibrary::List<DDTLibrary::dllRovingExtension<DDTLibrary::dll<DDTLibrary::listBaseNoSentinel<DDTLibrary::dllListElement<Detection, ddtr::malloc_allocator> > > > >&&) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+  n1: 80 0x10A0C4: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+   n0: 80 0x109558: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+ n1: 0 0x10A326: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+  n0: 0 0x109558: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+ n1: 0 0x10A3CC: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+  n0: 0 0x109558: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+ n1: 0 0x4B88294: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 0 0x4B985E3: _IO_doallocbuf (genops.c:347)
+   n1: 0 0x4B9700B: _IO_file_xsgetn (fileops.c:1290)
+    n1: 0 0x4B8957A: fread (iofread.c:38)
+     n1: 0 0x10ACB9: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+      n0: 0 0x1094A3: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+ n1: 0 0x4B88F5E: __fopen_internal (iofopen.c:65)
+  n1: 0 0x4B88F5E: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n1: 0 0x10AC96: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+    n0: 0 0x1094A3: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-flag-roving_double_linked_list_no_sentinel-glibc)
+#-----------
+snapshot=57
+#-----------
+time=79223698
+mem_heap_B=699288
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=79223916
+mem_heap_B=698368
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=79226592
+mem_heap_B=702464
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=79226923
+mem_heap_B=79872
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=79240204
+mem_heap_B=4096
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=79241384
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty

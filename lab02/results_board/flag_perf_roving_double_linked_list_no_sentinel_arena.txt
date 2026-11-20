@@ -1,0 +1,9 @@
+# started on Mon Dec 14 21:44:26 2105
+
+
+ Performance counter stats for './bin/nms-flag-roving_double_linked_list_no_sentinel-arena input=data/detrac_y5s_640.bin conf=0.05' (20 runs):
+
+           346,616      l2d_cache_refill:u                                            ( +-  0.02% )
+
+         0.1063544 +- 0.0000245 seconds time elapsed  ( +-  0.02% )
+

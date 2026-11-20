@@ -1,0 +1,9 @@
+# started on Mon Dec 14 21:43:53 2105
+
+
+ Performance counter stats for './bin/nms-flag-double_linked_list_no_sentinel-worst-fit input=data/detrac_y5s_640.bin conf=0.05 runs=0' (20 runs):
+
+           160,431      l2d_cache_refill:u                                            ( +-  0.06% )
+
+         0.0428180 +- 0.0000160 seconds time elapsed  ( +-  0.04% )
+

@@ -1,0 +1,9 @@
+# started on Mon Dec 14 21:43:37 2105
+
+
+ Performance counter stats for './bin/nms-flag-double_linked_list-worst-fit input=data/detrac_y5s_640.bin conf=0.05' (20 runs):
+
+           346,980      l2d_cache_refill:u                                            ( +-  0.03% )
+
+         0.1183699 +- 0.0000484 seconds time elapsed  ( +-  0.04% )
+

@@ -1,0 +1,9 @@
+# started on Mon Dec 14 20:54:21 2105
+
+
+ Performance counter stats for './bin/nms-double_linked_list-arena input=data/detrac_y5s_640.bin conf=0.05' (20 runs):
+
+           346,912      l2d_cache_refill:u                                            ( +-  0.03% )
+
+         0.0991721 +- 0.0000884 seconds time elapsed  ( +-  0.09% )
+

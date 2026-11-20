@@ -1,0 +1,9 @@
+# started on Mon Dec 14 19:40:20 2105
+
+
+ Performance counter stats for 'bin/nms-vector-glibc input=data/detrac_y5s_640.bin conf=0.05' (20 runs):
+
+           347,634      l2d_cache_refill:u                                            ( +-  0.06% )
+
+          0.402051 +- 0.000115 seconds time elapsed  ( +-  0.03% )
+

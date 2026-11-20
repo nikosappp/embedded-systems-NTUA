@@ -1,0 +1,9 @@
+# started on Mon Dec 14 21:43:00 2105
+
+
+ Performance counter stats for './bin/nms-flag-single_linked_list-glibc input=data/detrac_y5s_640.bin conf=0.05' (20 runs):
+
+           346,087      l2d_cache_refill:u                                            ( +-  0.02% )
+
+         0.1320944 +- 0.0000601 seconds time elapsed  ( +-  0.05% )
+

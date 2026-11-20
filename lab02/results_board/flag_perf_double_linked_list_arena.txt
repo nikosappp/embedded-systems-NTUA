@@ -1,0 +1,9 @@
+# started on Mon Dec 14 21:44:07 2105
+
+
+ Performance counter stats for './bin/nms-flag-double_linked_list-arena input=data/detrac_y5s_640.bin conf=0.05' (20 runs):
+
+           346,344      l2d_cache_refill:u                                            ( +-  0.03% )
+
+         0.1078648 +- 0.0000345 seconds time elapsed  ( +-  0.03% )
+

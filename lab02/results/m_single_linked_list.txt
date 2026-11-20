@@ -1,0 +1,192 @@
+--------------------------------------------------------------------------------
+Command:            ./bin/nms-single_linked_list-glibc input=data/detrac_y5s_640.bin conf=0.05
+Massif arguments:   --threshold=0 --peak-inaccuracy=0 --massif-out-file=results/m_single_linked_list.out
+ms_print arguments: --threshold=0 results/m_single_linked_list.out
+--------------------------------------------------------------------------------
+
+
+    KB
+835.1^                                #                                       
+     |                                #                           :::      :::
+     |            :  : :::  :: :    ::#:::    :      ::         ::::   ::::: :
+     |           ::::::: :  : ::::::: #::   :::   :: : :      ::: ::   : : : :
+     |           ::: ::: :::: ::: ::: #:: :::::::::::: :::::::: : :: ::: : : @
+     |           ::: ::: :: : ::: ::: #:: : ::::: :::: :: :: :: : :: : : : : @
+     |           ::: ::: :: : ::: ::: #:: : ::::: :::: :: :: :: : :: : : : : @
+     |           ::: ::: :: : ::: ::: #:: : ::::: :::: :: :: :: : :: : : : : @
+     |           ::: ::: :: : ::: ::: #:: : ::::: :::: :: :: :: : :: : : : : @
+     |           ::: ::: :: : ::: ::: #:: : ::::: :::: :: :: :: : :: : : : : @
+     |           ::: ::: :: : ::: ::: #:: : ::::: :::: :: :: :: : :: : : : : @
+     |           ::: ::: :: : ::: ::: #:: : ::::: :::: :: :: :: : :: : : : : @
+     |           ::: ::: :: : ::: ::: #:: : ::::: :::: :: :: :: : :: : : : : @
+     |           ::: ::: :: : ::: ::: #:: : ::::: :::: :: :: :: : :: : : : : @
+     |           ::: ::: :: : ::: ::: #:: : ::::: :::: :: :: :: : :: : : : : @
+     |           ::: ::: :: : ::: ::: #:: : ::::: :::: :: :: :: : :: : : : : @
+     |           ::: ::: :: : ::: ::: #:: : ::::: :::: :: :: :: : :: : : : : @
+     |           ::: ::: :: : ::: ::: #:: : ::::: :::: :: :: :: : :: : : : : @
+     |           ::: ::: :: : ::: ::: #:: : ::::: :::: :: :: :: : :: : : : : @
+     | ::::::::::::: ::: :: : ::: ::: #:: : ::::: :::: :: :: :: : :: : : : : @
+   0 +----------------------------------------------------------------------->Mi
+     0                                                                   88.79
+
+Number of snapshots: 57
+ Detailed snapshots: [22 (peak), 51]
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  0              0                0                0             0            0
+  1      1,958,336           73,736           73,728             8            0
+  2      4,573,749           78,848           78,808            40            0
+  3      6,795,163           79,360           79,320            40            0
+  4      9,572,625           81,416           81,368            48            0
+  5      9,572,828           80,384           80,344            40            0
+  6     12,496,121           76,280           76,248            32            0
+  7     14,379,823          766,200          762,888         3,312            0
+  8     16,634,290          807,864          802,568         5,296            0
+  9     17,938,633          755,368          752,560         2,808            0
+ 10     20,112,875          798,464          793,592         4,872            0
+ 11     21,421,383          746,968          744,560         2,408            0
+ 12     22,871,923          780,568          776,560         4,008            0
+ 13     24,651,311          791,328          786,784         4,544            0
+ 14     26,668,687          723,104          721,856         1,248            0
+ 15     29,048,496          772,080          768,488         3,592            0
+ 16     31,710,851          764,096          760,896         3,200            0
+ 17     33,118,601          809,464          804,080         5,384            0
+ 18     34,703,489          730,080          728,488         1,592            0
+ 19     36,342,826          749,832          747,264         2,568            0
+ 20     38,028,024          767,968          764,560         3,408            0
+ 21     39,867,214          795,520          790,800         4,720            0
+ 22     41,666,204          855,160          847,600         7,560            0
+99.12% (847,600B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->72.80% (622,592B) 0x1094BF: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+| 
+->17.29% (147,840B) 0x10A0E3: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+| ->17.29% (147,840B) 0x109558: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+|   
+->08.62% (73,728B) 0x490E38E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+| ->08.62% (73,728B) 0x400571E: call_init.part.0 (dl-init.c:74)
+|   ->08.62% (73,728B) 0x4005823: call_init (dl-init.c:120)
+|     ->08.62% (73,728B) 0x4005823: _dl_init (dl-init.c:121)
+|       ->08.62% (73,728B) 0x401F58F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+|         ->08.62% (73,728B) 0x2: ???
+|           ->08.62% (73,728B) 0x1FFEFFFD82: ???
+|             ->08.62% (73,728B) 0x1FFEFFFDA5: ???
+|               ->08.62% (73,728B) 0x1FFEFFFDC3: ???
+|                 
+->00.24% (2,048B) 0x10AE45: void std::vector<float*, std::allocator<float*> >::_M_realloc_insert<float* const&>(__gnu_cxx::__normal_iterator<float**, std::vector<float*, std::allocator<float*> > >, float* const&) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+| ->00.24% (2,048B) 0x10ACD4: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+|   ->00.24% (2,048B) 0x1094A3: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+|     
+->00.11% (960B) 0x10A98B: std::_Rb_tree_iterator<std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > > > std::_Rb_tree<float, std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > >, std::_Select1st<std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > > >, std::less<float>, std::allocator<std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > > > >::_M_emplace_hint_unique<float&, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > >(std::_Rb_tree_const_iterator<std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > > >, float&, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > >&&) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+| ->00.11% (960B) 0x109FEB: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+|   ->00.11% (960B) 0x109558: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+|     
+->00.05% (432B) 0x10A967: std::_Rb_tree_iterator<std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > > > std::_Rb_tree<float, std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > >, std::_Select1st<std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > > >, std::less<float>, std::allocator<std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > > > >::_M_emplace_hint_unique<float&, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > >(std::_Rb_tree_const_iterator<std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > > >, float&, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > >&&) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+| ->00.05% (432B) 0x109FEB: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+|   ->00.05% (432B) 0x109558: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+|     
+->00.00% (0B) 0x109F7F: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+| ->00.00% (0B) 0x109558: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+|   
+->00.00% (0B) 0x10A630: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+| ->00.00% (0B) 0x109558: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+|   
+->00.00% (0B) 0x4B88294: _IO_file_doallocate (filedoalloc.c:101)
+| ->00.00% (0B) 0x4B985E3: _IO_doallocbuf (genops.c:347)
+|   ->00.00% (0B) 0x4B9700B: _IO_file_xsgetn (fileops.c:1290)
+|     ->00.00% (0B) 0x4B8957A: fread (iofread.c:38)
+|       ->00.00% (0B) 0x10ABB9: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+|         ->00.00% (0B) 0x1094A3: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+|           
+->00.00% (0B) 0x4B88F5E: __fopen_internal (iofopen.c:65)
+  ->00.00% (0B) 0x4B88F5E: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+    ->00.00% (0B) 0x10AB96: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+      ->00.00% (0B) 0x1094A3: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+        
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 23     42,799,665          770,904          767,368         3,536            0
+ 24     44,969,405          810,056          804,632         5,424            0
+ 25     47,455,670          725,784          724,432         1,352            0
+ 26     49,970,632          751,832          749,216         2,616            0
+ 27     51,318,345          746,120          743,776         2,344            0
+ 28     52,654,751          779,472          775,528         3,944            0
+ 29     54,086,236          723,688          722,424         1,264            0
+ 30     55,523,027          721,080          719,952         1,128            0
+ 31     57,104,224          729,648          728,112         1,536            0
+ 32     58,717,188          732,000          730,352         1,648            0
+ 33     60,352,692          721,832          720,680         1,152            0
+ 34     61,965,516          773,160          769,552         3,608            0
+ 35     63,738,362          763,248          760,112         3,136            0
+ 36     65,522,823          720,504          719,368         1,136            0
+ 37     67,354,563          706,552          706,104           448            0
+ 38     69,225,200          708,728          708,200           528            0
+ 39     71,211,006          726,536          725,160         1,376            0
+ 40     73,341,955          741,920          739,776         2,144            0
+ 41     75,442,662          785,944          781,680         4,264            0
+ 42     77,616,102          816,264          810,568         5,696            0
+ 43     79,856,518          830,960          824,576         6,384            0
+ 44     82,235,723          712,856          712,096           760            0
+ 45     84,662,044          775,856          772,096         3,760            0
+ 46     87,074,771          805,512          800,328         5,184            0
+ 47     89,567,563          825,496          819,384         6,112            0
+ 48     92,166,156          814,416          808,808         5,608            0
+ 49     93,084,140          701,680          701,464           216            0
+ 50     93,084,390          700,584          700,432           152            0
+ 51     93,084,616          699,824          699,720           104            0
+99.99% (699,720B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->88.96% (622,592B) 0x1094BF: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+| 
+->10.54% (73,728B) 0x490E38E: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33)
+| ->10.54% (73,728B) 0x400571E: call_init.part.0 (dl-init.c:74)
+|   ->10.54% (73,728B) 0x4005823: call_init (dl-init.c:120)
+|     ->10.54% (73,728B) 0x4005823: _dl_init (dl-init.c:121)
+|       ->10.54% (73,728B) 0x401F58F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+|         ->10.54% (73,728B) 0x2: ???
+|           ->10.54% (73,728B) 0x1FFEFFFD82: ???
+|             ->10.54% (73,728B) 0x1FFEFFFDA5: ???
+|               ->10.54% (73,728B) 0x1FFEFFFDC3: ???
+|                 
+->00.29% (2,048B) 0x10AE45: void std::vector<float*, std::allocator<float*> >::_M_realloc_insert<float* const&>(__gnu_cxx::__normal_iterator<float**, std::vector<float*, std::allocator<float*> > >, float* const&) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+| ->00.29% (2,048B) 0x10ACD4: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+|   ->00.29% (2,048B) 0x1094A3: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+|     
+->00.16% (1,120B) 0x10A0E3: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+| ->00.16% (1,120B) 0x109558: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+|   
+->00.02% (160B) 0x10A98B: std::_Rb_tree_iterator<std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > > > std::_Rb_tree<float, std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > >, std::_Select1st<std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > > >, std::less<float>, std::allocator<std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > > > >::_M_emplace_hint_unique<float&, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > >(std::_Rb_tree_const_iterator<std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > > >, float&, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > >&&) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+| ->00.02% (160B) 0x109FEB: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+|   ->00.02% (160B) 0x109558: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+|     
+->00.01% (72B) 0x10A967: std::_Rb_tree_iterator<std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > > > std::_Rb_tree<float, std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > >, std::_Select1st<std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > > >, std::less<float>, std::allocator<std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > > > >::_M_emplace_hint_unique<float&, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > >(std::_Rb_tree_const_iterator<std::pair<float const, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > > > >, float&, DDTLibrary::List<DDTLibrary::sll<DDTLibrary::listBase<DDTLibrary::sllListElement<Detection, ddtr::malloc_allocator> > > >&&) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+| ->00.01% (72B) 0x109FEB: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+|   ->00.01% (72B) 0x109558: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+|     
+->00.00% (0B) 0x109F7F: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+| ->00.00% (0B) 0x109558: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+|   
+->00.00% (0B) 0x10A630: nms(std::vector<Detection, std::allocator<Detection> >&, float*, float, float) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+| ->00.00% (0B) 0x109558: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+|   
+->00.00% (0B) 0x4B88294: _IO_file_doallocate (filedoalloc.c:101)
+| ->00.00% (0B) 0x4B985E3: _IO_doallocbuf (genops.c:347)
+|   ->00.00% (0B) 0x4B9700B: _IO_file_xsgetn (fileops.c:1290)
+|     ->00.00% (0B) 0x4B8957A: fread (iofread.c:38)
+|       ->00.00% (0B) 0x10ABB9: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+|         ->00.00% (0B) 0x1094A3: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+|           
+->00.00% (0B) 0x4B88F5E: __fopen_internal (iofopen.c:65)
+  ->00.00% (0B) 0x4B88F5E: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+    ->00.00% (0B) 0x10AB96: load(char const*) (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+      ->00.00% (0B) 0x1094A3: main (in /home/nikolaos/Embedded-Systems-Second-Exercise/yolo_nms/bin/nms-single_linked_list-glibc)
+        
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 52     93,084,847          698,648          698,600            48            0
+ 53     93,087,546          702,496          702,464            32            0
+ 54     93,087,877           79,896           79,872            24            0
+ 55     93,101,158            4,104            4,096             8            0
+ 56     93,102,338                0                0             0            0

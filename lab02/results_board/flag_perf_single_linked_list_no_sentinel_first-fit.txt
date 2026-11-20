@@ -1,0 +1,9 @@
+# started on Mon Dec 14 21:44:46 2105
+
+
+ Performance counter stats for './bin/nms-flag-single_linked_list_no_sentinel-first-fit input=data/detrac_y5s_640.bin conf=0.05' (20 runs):
+
+           346,232      l2d_cache_refill:u                                            ( +-  0.03% )
+
+         0.1125210 +- 0.0000538 seconds time elapsed  ( +-  0.05% )
+
