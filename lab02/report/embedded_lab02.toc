@@ -1,0 +1,5 @@
+\xpg@aux {}{greek}
+\contentsline {section}{\numberline {1}Εκτέλεση της Αρχικής Έκδοσης της Εφαρμογής NMS}{3}{}%
+\contentsline {section}{\numberline {2}Βελτιστοποίηση Δυναμικών Δομών Δεδομένων του Αλγορίθμου NMS}{3}{}%
+\contentsline {section}{\numberline {3}Χρήση Διαφορετικών Allocators}{5}{}%
+\contentsline {section}{\numberline {4}Χρήση Flag αντί για erase}{8}{}%
