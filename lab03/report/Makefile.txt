@@ -1,0 +1,31 @@
+CC      = gcc
+CFLAGS  = -Wall -g -fno-builtin
+ASFLAGS = -g
+LDFLAGS =
+
+TARGET  = string_manipulation.out
+OBJS    = string_manipulation.o strlen.o strcpy.o strcat.o strcmp.o
+
+.PHONY: all clean distclean
+
+all: $(TARGET)
+
+# link all object files into string_manipulation.out
+$(TARGET): $(OBJS)
+	$(CC) $(LDFLAGS) $(OBJS) -o $(TARGET)
+
+# compile C source into object file (-fno-builtin ensures calls hit our assembly)
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# assemble ARM .s files into object files
+%.o: %.s
+	$(CC) $(ASFLAGS) -c $< -o $@
+
+# remove object files and executable
+clean:
+	rm -f $(OBJS) $(TARGET)
+
+# also remove generated *_out test files
+distclean: clean
+	rm -f *_len_out *_concat_out *_sorted_out

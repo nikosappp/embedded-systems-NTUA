@@ -1,0 +1,79 @@
+================================================================
+EMBEDDED SYSTEMS LAB 03 - QUESTION 2 RUN GUIDE (PTY / man 4 pts)
+================================================================
+
+Assumes communication.out (WSL2 host) and guest_freq.out (ARM VM)
+are already compiled and ttyAMA0 getty is disabled in /etc/inittab.
+
+You will use 3 WSL2 terminals in the exact order below.
+
+----------------------------------------------------------------
+1. START HOST PROGRAM & CREATE PTY (Terminal 1 - WSL2 Host)
+----------------------------------------------------------------
+Run communication.out FIRST so it allocates /dev/pts/N:
+
+    cd ~/emb_lab03/q2_host
+    ./communication.out
+
+- Note the exact slave path printed (e.g., /dev/pts/3).
+- Do NOT press Enter yet; leave Terminal 1 waiting.
+
+----------------------------------------------------------------
+2. BOOT QEMU ATTACHED TO /dev/pts/N (Terminal 2 - WSL2 Host)
+----------------------------------------------------------------
+Replace N with the exact number shown in Terminal 1:
+
+    cd ~/arm-vm
+    qemu-system-arm -nographic -M versatilepb \
+      -kernel vmlinuz-3.2.0-4-versatile \
+      -initrd initrd.img-3.2.0-4-versatile \
+      -hda debian_wheezy_armel_standard.qcow2 \
+      -append "root=/dev/sda1" \
+      -net nic -net user,hostfwd=tcp:127.0.0.1:22223-:22 \
+      -serial /dev/pts/N
+
+- Optional check at (qemu) prompt: type "info chardev" and verify
+  serial0 shows "filename=tty:/dev/pts/N".
+- Wait ~15-20 seconds for Debian ARM to finish booting.
+
+----------------------------------------------------------------
+3. SSH INTO VM & START GUEST RECEIVER (Terminal 3 - Guest SSH)
+----------------------------------------------------------------
+Connect to the VM and start guest_freq.out:
+
+    ssh -p 22223 root@localhost
+    cd ~/emb_lab03/q2_serial_comm
+    ./guest_freq.out
+
+- Confirm it prints: Listening on /dev/ttyAMA0...
+
+----------------------------------------------------------------
+4. SEND STRINGS & VERIFY RESULTS (Terminal 1 - WSL2 Host)
+----------------------------------------------------------------
+- Switch back to Terminal 1 and press ENTER to start the loop.
+- Type any string (up to 64 characters) and press ENTER.
+- Verify:
+  * Terminal 1 prints the most frequent character and count.
+  * Terminal 3 logs: Processed -> CHAR='...' COUNT=...
+- Repeat for as many test strings as needed.
+
+----------------------------------------------------------------
+5. CLEAN TERMINATION (All Terminals)
+----------------------------------------------------------------
+1) Terminal 1 (Host):
+   Press Ctrl+D to exit communication.out cleanly.
+
+2) Terminal 3 (Guest SSH):
+   guest_freq.out will exit automatically on EOF (if not, press Ctrl+C).
+
+3) If you mounted ~/vm-work via sshfs (on any WSL2 host terminal):
+   Close VS Code first, then run:
+       umount ~/vm-work
+
+4) Terminal 3 (Guest SSH):
+   Power off the ARM VM cleanly:
+       poweroff
+
+5) Terminal 2 (QEMU):
+   Wait for the VM to halt and QEMU to exit (if it remains at the
+   (qemu) prompt after halt, type "quit" and press Enter).

@@ -1,0 +1,4 @@
+\xpg@aux {}{greek}
+\contentsline {section}{\numberline {1}Μετατροπή Εισόδου από Τερματικό}{3}{}%
+\contentsline {section}{\numberline {2}Επικοινωνία των guest και host Μηχανημάτων μέσω Σειριακής Θύρας}{5}{}%
+\contentsline {section}{\numberline {3}Σύνδεση Κώδικα C με Κώδικα Assembly του Επεξεργαστή ARM}{9}{}%

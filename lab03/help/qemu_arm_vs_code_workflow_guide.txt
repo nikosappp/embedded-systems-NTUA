@@ -1,0 +1,70 @@
+================================================================================
+HOW TO START & CLEANLY CLOSE QEMU ARM (UBUNTU 22.04 WSL2 ON WINDOWS 11)
+================================================================================
+
+--------------------------------------------------------------------------------
+PART A: STARTING QEMU & CONNECTING VS CODE
+--------------------------------------------------------------------------------
+
+1. START THE QEMU ARM GUEST VM (Terminal 1 - Ubuntu 22.04 WSL2)
+   Use -nographic and console=ttyAMA0 so the serial console stays in the
+   terminal and avoids missing-display/ALSA issues in WSL2, with port 22223
+   forwarded to guest SSH port 22:
+
+       cd ~/arm-vm
+       sudo qemu-system-arm -nographic -M versatilepb \
+         -kernel vmlinuz-3.2.0-4-versatile \
+         -initrd initrd.img-3.2.0-4-versatile \
+         -hda debian_wheezy_armel_standard.qcow2 \
+         -append "root=/dev/sda1 console=ttyAMA0" \
+         -net nic -net user,hostfwd=tcp:127.0.0.1:22223-:22
+
+   - Press Enter if a login prompt does not appear right away.
+   - Default credentials: user = root, password = root
+   - Keep this terminal open while the VM is running.
+
+2. MOUNT ~/vm-work & OPEN VS CODE (Terminal 2 - WSL2 Host)
+   With user_allow_other enabled in /etc/fuse.conf and the ~/vm-work entry
+   configured in /etc/fstab (using your WSL2 UID/GID):
+
+       mount ~/vm-work
+       code ~/vm-work/emb_lab03
+
+   - Enter "root" when prompted for the VM password.
+   - Files edited in VS Code under ~/vm-work/emb_lab03 are written to the VM.
+
+3. CONNECT OVER SSH TO COMPILE, RUN & DEBUG (Terminal 3 - WSL2)
+   Open a separate SSH session for a clean shell inside the guest VM:
+
+       ssh -p 22223 root@localhost
+       cd ~/emb_lab03/q1_terminal_conv
+
+--------------------------------------------------------------------------------
+PART B: CLEANLY CLOSING VS CODE, UNMOUNTING & SHUTTING DOWN QEMU
+--------------------------------------------------------------------------------
+
+Always shut down the guest OS cleanly before exiting QEMU so you do not
+corrupt debian_wheezy_armel_standard.qcow2.
+
+Step 1 - Close VS Code (and leave any terminal that is cd'd into ~/vm-work).
+
+Step 2 - Unmount ~/vm-work in Terminal 2 (WSL2 Host):
+       umount ~/vm-work
+       (If needed: sudo umount ~/vm-work)
+
+Step 3 - Shut down the ARM guest VM from inside the SSH session (Terminal 3):
+       poweroff
+
+Step 4 - Exit QEMU in Terminal 1 after "System halted" appears:
+       - Often QEMU exits back to your WSL2 prompt automatically.
+       - If "Ctrl+C" does not work after "System halted", press:
+             Ctrl + A   (release both keys), then   X
+
+Step 5 - Fallback ONLY if a qemu-system-arm process is still hanging:
+       From another WSL2 terminal:
+             sudo pkill -9 -f qemu-system-arm
+
+Step 6 - (Optional) Shut down the entire WSL2 VM on Windows if desired:
+       Run in Windows PowerShell or Command Prompt:
+             wsl --shutdown
+================================================================================
